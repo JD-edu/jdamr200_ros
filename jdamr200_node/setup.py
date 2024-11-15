@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'jdamr_node = jdamr200_node.jdamr200_node:main'
+            'jdamr200_node = jdamr200_node.jdamr200_node:main'
         ],
     },
 )

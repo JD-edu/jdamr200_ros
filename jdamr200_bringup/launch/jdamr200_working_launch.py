@@ -17,28 +17,44 @@ def generate_launch_description():
     with open(jdamr200_urdf, 'r') as file:
         jdamr200_desc = file.read()
 
+    ld14lidar_launch_file_dir = os.path.join(
+        get_package_share_directory('ldlidar_sl_ros2'),
+        'launch'
+    )
+    
     robot_param = {'robot_description': jdamr200_desc}
-
+    
     return LaunchDescription([
-        # Gazebo 시작
+        DeclareLaunchArgument(
+            'use_sim_time',
+            default_value='true',
+            description='Use simulation (Gazebo) clock if true'
+        ),
+         # Include the launch file that starts the ydlidar launch file
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([os.path.join(
-                get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')])
+            PythonLaunchDescriptionSource([ld14lidar_launch_file_dir, '/ld14.launch.py']),
+            launch_arguments={'use_sim_time': use_sim_time}.items()
         ),
 
-        # 로봇 상태 퍼블리셔 실행
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
             output='screen',
             parameters=[robot_param, {'use_sim_time': use_sim_time}],
         ),
-
-        # Gazebo에 로봇 스폰
         Node(
-            package='gazebo_ros',
-            executable='spawn_entity.py',
-            arguments=['-topic', 'robot_description', '-entity', 'jdamr200'],
-            output='screen'
+            package='rviz2',
+            executable='rviz2',
+            output='screen',
+        ),
+        Node(
+            package='joint_state_publisher_gui',
+            executable='joint_state_publisher_gui',
+            output='screen',
+        ),
+        Node(
+            package='jdamr200_node',
+            executable='jdamr200_node',
+            output='screen',
         ),
     ])

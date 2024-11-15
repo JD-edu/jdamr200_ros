@@ -38,12 +38,15 @@ class JdamrControlNode(Node):
 
     def odom_timer_callback(self):
         msg = Odometry()
+        msg.header.frame_id = 'odom'
         # Reading jdamr200 sensor value 
         self.robot.readSpeed()
+        # calculate odmetry 
+        result = self.robot.update_odometry()
         # get odmetry data 
-        msg.pose.pose.position.x = 0.0
-        msg.pose.pose.position.y = 0.0
-        msg.pose.pose.position.z = 0.0
+        msg.pose.pose.position.x = result[0]
+        msg.pose.pose.position.y = result[1]
+        msg.pose.pose.position.z = result[2]
         self.pub_odom.publish(msg)
         #self.get_logger().info('Publishing Odometry data')
 
@@ -57,14 +60,21 @@ class JdamrControlNode(Node):
     def cmd_vel_callback(self, msg):
         go_back = msg.linear.x
         rotate = msg.linear.y
+        speed = int(msg.linear.z)
         if go_back > 0:
-            self.robot.move_run_mode(self.robot.GO_FORWARD, 100)
+            self.robot.move_run_mode(self.robot.GO_FORWARD, speed)
+            print(speed)
         elif go_back < 0:
-            self.robot.move_run_mode(self.robot.GO_BACKWARD, 100)
+            self.robot.move_run_mode(self.robot.GO_BACKWARD, speed)
+            print(speed)
+        elif rotate > 0:
+            self.robot.move_run_mode(self.robot.TURN_LEFT, speed)
+        elif rotate < 0:
+            self.robot.move_run_mode(self.robot.TURN_RIGHT, speed)
         else:
             self.robot.move_run_mode(self.robot.STOP, 0)
         # Perform actions based on the received velocities (e.g., control a robot)
-        print(f"Received linear velocity: {go_back}, angular velocity: {rotate}")
+        #print(f"Received linear velocity: {go_back}, angular velocity: {rotate}")
 
     def main_loop(self):
         while rclpy.ok():

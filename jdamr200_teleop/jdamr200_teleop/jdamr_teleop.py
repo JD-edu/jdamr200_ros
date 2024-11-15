@@ -11,12 +11,14 @@ Moving around:
    a    s    d
     
 space key, k : stop
-w       : foward
-s       : backward
-a       : turn left
-d       : turn right
-Space   : stop
-x       : stop
+w           : foward
+s           : backward
+a           : turn left
+d           : turn right
+x           : stop
+u           : speed up
+j           : speed down
+space       : stop
 
 CTRL-C to quit
 """
@@ -36,6 +38,7 @@ class TeleopNode(Node):
         self.x = 0.0
         self.y = 0.0
         self.theta = 0.0
+        self.speed = 50.0
 
         # Start listening for keyboard input
         self.get_logger().info(msg)
@@ -68,12 +71,20 @@ class TeleopNode(Node):
                     self.theta = 0.0
                 elif key == '\x03':  # CTRL-C
                     break
-
+                elif key == 'u': # arrow up
+                    self.speed += 10.0
+                    if self.speed > 100.0:  # actual max is 255.
+                        self.speed = 100.0
+                elif key == 'j': # arrow down 
+                    self.speed -= 10.0
+                    if self.speed < 30.0:
+                        self.speed = 30.0
+             
                 # Publish the Twist message
                 twist = Twist()
                 twist.linear.x = self.x
                 twist.linear.y = self.y
-                twist.linear.z = 0.0
+                twist.linear.z = self.speed
                 twist.angular.x = 0.0
                 twist.angular.y = 0.0
                 twist.angular.z = self.theta
