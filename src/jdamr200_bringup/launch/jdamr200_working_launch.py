@@ -36,12 +36,13 @@ def generate_launch_description():
             launch_arguments={'use_sim_time': use_sim_time}.items()
         ),
 
-        Node(
-            package='robot_state_publisher',
-            executable='robot_state_publisher',
-            output='screen',
-            parameters=[robot_param, {'use_sim_time': use_sim_time}],
-        ),
+        # This node is executed at lidar launch file (ld14.launch.py). 
+        #Node(
+        #    package='robot_state_publisher',
+        #    executable='robot_state_publisher',
+        #    output='screen',
+        #    parameters=[robot_param, {'use_sim_time': use_sim_time}],
+        #),
         Node(
             package='rviz2',
             executable='rviz2',
