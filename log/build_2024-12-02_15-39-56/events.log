@@ -1,0 +1,783 @@
+[0.000000] (-) TimerEvent: {}
+[0.003390] (jdamr200_bringup) JobQueued: {'identifier': 'jdamr200_bringup', 'dependencies': OrderedDict()}
+[0.003575] (jdamr200_cartographer) JobQueued: {'identifier': 'jdamr200_cartographer', 'dependencies': OrderedDict()}
+[0.003664] (jdamr200_description) JobQueued: {'identifier': 'jdamr200_description', 'dependencies': OrderedDict()}
+[0.003743] (jdamr200_node) JobQueued: {'identifier': 'jdamr200_node', 'dependencies': OrderedDict()}
+[0.003883] (jdamr200_teleop) JobQueued: {'identifier': 'jdamr200_teleop', 'dependencies': OrderedDict()}
+[0.004666] (ldlidar_sl_ros2) JobQueued: {'identifier': 'ldlidar_sl_ros2', 'dependencies': OrderedDict()}
+[0.004759] (jdamr200_bringup) JobStarted: {'identifier': 'jdamr200_bringup'}
+[0.057861] (jdamr200_cartographer) JobStarted: {'identifier': 'jdamr200_cartographer'}
+[0.084597] (jdamr200_description) JobStarted: {'identifier': 'jdamr200_description'}
+[0.102202] (-) TimerEvent: {}
+[0.131153] (jdamr200_node) JobStarted: {'identifier': 'jdamr200_node'}
+[0.202367] (-) TimerEvent: {}
+[0.304032] (-) TimerEvent: {}
+[0.405211] (-) TimerEvent: {}
+[0.506978] (-) TimerEvent: {}
+[0.608476] (-) TimerEvent: {}
+[0.709897] (-) TimerEvent: {}
+[0.810950] (-) TimerEvent: {}
+[0.911964] (-) TimerEvent: {}
+[1.012928] (-) TimerEvent: {}
+[1.113938] (-) TimerEvent: {}
+[1.214842] (-) TimerEvent: {}
+[1.315911] (-) TimerEvent: {}
+[1.417180] (-) TimerEvent: {}
+[1.518771] (-) TimerEvent: {}
+[1.582172] (jdamr200_cartographer) JobProgress: {'identifier': 'jdamr200_cartographer', 'progress': 'cmake'}
+[1.587316] (jdamr200_cartographer) JobProgress: {'identifier': 'jdamr200_cartographer', 'progress': 'build'}
+[1.591297] (jdamr200_cartographer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jd/jdamr_200_ros/build/jdamr200_cartographer', '--', '-j4', '-l4'], 'cwd': '/home/jd/jdamr_200_ros/build/jdamr200_cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'jd'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1598'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jd'), ('OLDPWD', '/home/jd/jdamr_200_ros/src'), ('DESKTOP_SESSION', 'xfce'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jd/jdamr_200_ros/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jd'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jd-desktop:@/tmp/.ICE-unix/1370,unix/jd-desktop:/tmp/.ICE-unix/1370'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b9f9a9a6_1592_49d0_bb38_449596217c6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/jd/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXM6zsae/agent.1596'), ('ROS_DOMAIN_ID', '23'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jd'), ('AMENT_PREFIX_PATH', '/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/jd/jdamr_200_ros/build/jdamr200_cartographer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble')]), 'shell': False}
+[1.619881] (-) TimerEvent: {}
+[1.721203] (-) TimerEvent: {}
+[1.822986] (-) TimerEvent: {}
+[1.925195] (-) TimerEvent: {}
+[2.025943] (-) TimerEvent: {}
+[2.126703] (-) TimerEvent: {}
+[2.227418] (-) TimerEvent: {}
+[2.328288] (-) TimerEvent: {}
+[2.429493] (-) TimerEvent: {}
+[2.530335] (-) TimerEvent: {}
+[2.631026] (-) TimerEvent: {}
+[2.731737] (-) TimerEvent: {}
+[2.832520] (-) TimerEvent: {}
+[2.933733] (-) TimerEvent: {}
+[3.036110] (-) TimerEvent: {}
+[3.137534] (-) TimerEvent: {}
+[3.238308] (-) TimerEvent: {}
+[3.339243] (-) TimerEvent: {}
+[3.440284] (-) TimerEvent: {}
+[3.541058] (-) TimerEvent: {}
+[3.641809] (-) TimerEvent: {}
+[3.742723] (-) TimerEvent: {}
+[3.843425] (-) TimerEvent: {}
+[3.944161] (-) TimerEvent: {}
+[4.044900] (-) TimerEvent: {}
+[4.145767] (-) TimerEvent: {}
+[4.246498] (-) TimerEvent: {}
+[4.347562] (-) TimerEvent: {}
+[4.399264] (jdamr200_cartographer) CommandEnded: {'returncode': 0}
+[4.402021] (jdamr200_cartographer) JobProgress: {'identifier': 'jdamr200_cartographer', 'progress': 'install'}
+[4.443662] (jdamr200_cartographer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jd/jdamr_200_ros/build/jdamr200_cartographer'], 'cwd': '/home/jd/jdamr_200_ros/build/jdamr200_cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'jd'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1598'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jd'), ('OLDPWD', '/home/jd/jdamr_200_ros/src'), ('DESKTOP_SESSION', 'xfce'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jd/jdamr_200_ros/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jd'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jd-desktop:@/tmp/.ICE-unix/1370,unix/jd-desktop:/tmp/.ICE-unix/1370'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b9f9a9a6_1592_49d0_bb38_449596217c6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/jd/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXM6zsae/agent.1596'), ('ROS_DOMAIN_ID', '23'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jd'), ('AMENT_PREFIX_PATH', '/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/jd/jdamr_200_ros/build/jdamr200_cartographer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble')]), 'shell': False}
+[4.451031] (-) TimerEvent: {}
+[4.484497] (jdamr200_cartographer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.486792] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/launch\n'}
+[4.488089] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/launch/occupancy_grid.launch.py\n'}
+[4.489707] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/launch/cartographer.launch.py\n'}
+[4.490890] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/config\n'}
+[4.492183] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/config/jdamr200_lidar.lua\n'}
+[4.493550] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/ament_index/resource_index/package_run_dependencies/jdamr200_cartographer\n'}
+[4.494831] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/ament_index/resource_index/parent_prefix_path/jdamr200_cartographer\n'}
+[4.497495] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/environment/ament_prefix_path.sh\n'}
+[4.503382] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/environment/ament_prefix_path.dsv\n'}
+[4.505624] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/environment/path.sh\n'}
+[4.507723] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/environment/path.dsv\n'}
+[4.509671] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/local_setup.bash\n'}
+[4.511879] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/local_setup.sh\n'}
+[4.522220] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/local_setup.zsh\n'}
+[4.524432] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/local_setup.dsv\n'}
+[4.525448] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.dsv\n'}
+[4.526552] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/ament_index/resource_index/packages/jdamr200_cartographer\n'}
+[4.527889] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/cmake/jdamr200_cartographerConfig.cmake\n'}
+[4.528625] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/cmake/jdamr200_cartographerConfig-version.cmake\n'}
+[4.529842] (jdamr200_cartographer) StdoutLine: {'line': b'-- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.xml\n'}
+[4.546150] (jdamr200_cartographer) CommandEnded: {'returncode': 0}
+[4.552039] (-) TimerEvent: {}
+[4.653640] (-) TimerEvent: {}
+[4.707352] (jdamr200_cartographer) JobEnded: {'identifier': 'jdamr200_cartographer', 'rc': 0}
+[4.712208] (jdamr200_teleop) JobStarted: {'identifier': 'jdamr200_teleop'}
+[4.753941] (-) TimerEvent: {}
+[4.855217] (-) TimerEvent: {}
+[4.956941] (-) TimerEvent: {}
+[5.060231] (-) TimerEvent: {}
+[5.164654] (-) TimerEvent: {}
+[5.266111] (-) TimerEvent: {}
+[5.368624] (-) TimerEvent: {}
+[5.477251] (-) TimerEvent: {}
+[5.579002] (-) TimerEvent: {}
+[5.680266] (-) TimerEvent: {}
+[5.782111] (-) TimerEvent: {}
+[5.882920] (-) TimerEvent: {}
+[5.983906] (-) TimerEvent: {}
+[6.084994] (-) TimerEvent: {}
+[6.186030] (-) TimerEvent: {}
+[6.287048] (-) TimerEvent: {}
+[6.388236] (-) TimerEvent: {}
+[6.489222] (-) TimerEvent: {}
+[6.590420] (-) TimerEvent: {}
+[6.691679] (-) TimerEvent: {}
+[6.793550] (-) TimerEvent: {}
+[6.895280] (-) TimerEvent: {}
+[6.996946] (-) TimerEvent: {}
+[7.098626] (-) TimerEvent: {}
+[7.200369] (-) TimerEvent: {}
+[7.302883] (-) TimerEvent: {}
+[7.406569] (-) TimerEvent: {}
+[7.510816] (-) TimerEvent: {}
+[7.614732] (-) TimerEvent: {}
+[7.720225] (-) TimerEvent: {}
+[7.821952] (-) TimerEvent: {}
+[7.925664] (-) TimerEvent: {}
+[7.958448] (jdamr200_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/jdamr200_bringup', 'build', '--build-base', '/home/jd/jdamr_200_ros/build/jdamr200_bringup/build', 'install', '--record', '/home/jd/jdamr_200_ros/build/jdamr200_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jd/jdamr_200_ros/src/jdamr200_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'jd', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1598', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jd', 'OLDPWD': '/home/jd/jdamr_200_ros/src', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jd/jdamr_200_ros/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jd', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jd-desktop:@/tmp/.ICE-unix/1370,unix/jd-desktop:/tmp/.ICE-unix/1370', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b9f9a9a6_1592_49d0_bb38_449596217c6a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/jd/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.77', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXM6zsae/agent.1596', 'ROS_DOMAIN_ID': '23', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/jd', 'AMENT_PREFIX_PATH': '/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/jd/jdamr_200_ros/build/jdamr200_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/jd/jdamr_200_ros/build/jdamr200_bringup/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jd/jdamr_200_ros/install/jdamr200_cartographer'}, 'shell': False}
+[8.026566] (jdamr200_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/jdamr200_description', 'build', '--build-base', '/home/jd/jdamr_200_ros/build/jdamr200_description/build', 'install', '--record', '/home/jd/jdamr_200_ros/build/jdamr200_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jd/jdamr_200_ros/src/jdamr200_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'jd', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1598', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jd', 'OLDPWD': '/home/jd/jdamr_200_ros/src', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jd/jdamr_200_ros/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jd', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jd-desktop:@/tmp/.ICE-unix/1370,unix/jd-desktop:/tmp/.ICE-unix/1370', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b9f9a9a6_1592_49d0_bb38_449596217c6a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/jd/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.77', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXM6zsae/agent.1596', 'ROS_DOMAIN_ID': '23', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/jd', 'AMENT_PREFIX_PATH': '/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/jd/jdamr_200_ros/build/jdamr200_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/jd/jdamr_200_ros/build/jdamr200_description/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jd/jdamr_200_ros/install/jdamr200_cartographer'}, 'shell': False}
+[8.030399] (-) TimerEvent: {}
+[8.131923] (-) TimerEvent: {}
+[8.234907] (-) TimerEvent: {}
+[8.346867] (jdamr200_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/jdamr200_node', 'build', '--build-base', '/home/jd/jdamr_200_ros/build/jdamr200_node/build', 'install', '--record', '/home/jd/jdamr_200_ros/build/jdamr200_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jd/jdamr_200_ros/src/jdamr200_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'jd', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1598', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jd', 'OLDPWD': '/home/jd/jdamr_200_ros/src', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jd/jdamr_200_ros/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jd', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jd-desktop:@/tmp/.ICE-unix/1370,unix/jd-desktop:/tmp/.ICE-unix/1370', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b9f9a9a6_1592_49d0_bb38_449596217c6a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/jd/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.77', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXM6zsae/agent.1596', 'ROS_DOMAIN_ID': '23', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/jd', 'AMENT_PREFIX_PATH': '/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/jd/jdamr_200_ros/build/jdamr200_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/jd/jdamr_200_ros/build/jdamr200_node/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jd/jdamr_200_ros/install/jdamr200_cartographer'}, 'shell': False}
+[8.351772] (-) TimerEvent: {}
+[8.453677] (-) TimerEvent: {}
+[8.554850] (-) TimerEvent: {}
+[8.655885] (-) TimerEvent: {}
+[8.756741] (-) TimerEvent: {}
+[8.857810] (-) TimerEvent: {}
+[8.959319] (-) TimerEvent: {}
+[9.061077] (-) TimerEvent: {}
+[9.171298] (-) TimerEvent: {}
+[9.272322] (-) TimerEvent: {}
+[9.373197] (-) TimerEvent: {}
+[9.474446] (-) TimerEvent: {}
+[9.575896] (-) TimerEvent: {}
+[9.676915] (-) TimerEvent: {}
+[9.777799] (-) TimerEvent: {}
+[9.878804] (-) TimerEvent: {}
+[9.979853] (-) TimerEvent: {}
+[10.080856] (-) TimerEvent: {}
+[10.181828] (-) TimerEvent: {}
+[10.263372] (jdamr200_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[10.271180] (jdamr200_bringup) StdoutLine: {'line': b'writing ../../build/jdamr200_bringup/jdamr200_bringup.egg-info/PKG-INFO\n'}
+[10.281635] (jdamr200_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/jdamr200_bringup/jdamr200_bringup.egg-info/dependency_links.txt\n'}
+[10.282874] (-) TimerEvent: {}
+[10.285908] (jdamr200_bringup) StdoutLine: {'line': b'writing entry points to ../../build/jdamr200_bringup/jdamr200_bringup.egg-info/entry_points.txt\n'}
+[10.290022] (jdamr200_bringup) StdoutLine: {'line': b'writing requirements to ../../build/jdamr200_bringup/jdamr200_bringup.egg-info/requires.txt\n'}
+[10.292596] (jdamr200_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/jdamr200_bringup/jdamr200_bringup.egg-info/top_level.txt\n'}
+[10.314394] (jdamr200_bringup) StdoutLine: {'line': b"reading manifest file '../../build/jdamr200_bringup/jdamr200_bringup.egg-info/SOURCES.txt'\n"}
+[10.328130] (jdamr200_bringup) StdoutLine: {'line': b"writing manifest file '../../build/jdamr200_bringup/jdamr200_bringup.egg-info/SOURCES.txt'\n"}
+[10.338732] (jdamr200_bringup) StdoutLine: {'line': b'running build\n'}
+[10.340053] (jdamr200_bringup) StdoutLine: {'line': b'running build_py\n'}
+[10.343262] (jdamr200_bringup) StdoutLine: {'line': b'running install\n'}
+[10.351631] (jdamr200_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[10.363431] (jdamr200_bringup) StdoutLine: {'line': b'running install_data\n'}
+[10.364877] (jdamr200_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.376875] (jdamr200_bringup) StdoutLine: {'line': b"removing '/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages/jdamr200_bringup-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.380454] (jdamr200_bringup) StdoutLine: {'line': b'Copying ../../build/jdamr200_bringup/jdamr200_bringup.egg-info to /home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages/jdamr200_bringup-0.0.0-py3.10.egg-info\n'}
+[10.383093] (-) TimerEvent: {}
+[10.389653] (jdamr200_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[10.454147] (jdamr200_description) StdoutLine: {'line': b'running egg_info\n'}
+[10.455676] (jdamr200_description) StdoutLine: {'line': b'writing ../../build/jdamr200_description/jdamr200_description.egg-info/PKG-INFO\n'}
+[10.457547] (jdamr200_description) StdoutLine: {'line': b'writing dependency_links to ../../build/jdamr200_description/jdamr200_description.egg-info/dependency_links.txt\n'}
+[10.458914] (jdamr200_description) StdoutLine: {'line': b'writing entry points to ../../build/jdamr200_description/jdamr200_description.egg-info/entry_points.txt\n'}
+[10.461508] (jdamr200_description) StdoutLine: {'line': b'writing requirements to ../../build/jdamr200_description/jdamr200_description.egg-info/requires.txt\n'}
+[10.463019] (jdamr200_description) StdoutLine: {'line': b'writing top-level names to ../../build/jdamr200_description/jdamr200_description.egg-info/top_level.txt\n'}
+[10.476749] (jdamr200_description) StdoutLine: {'line': b"reading manifest file '../../build/jdamr200_description/jdamr200_description.egg-info/SOURCES.txt'\n"}
+[10.483727] (-) TimerEvent: {}
+[10.488400] (jdamr200_description) StdoutLine: {'line': b"writing manifest file '../../build/jdamr200_description/jdamr200_description.egg-info/SOURCES.txt'\n"}
+[10.489621] (jdamr200_description) StdoutLine: {'line': b'running build\n'}
+[10.490278] (jdamr200_description) StdoutLine: {'line': b'running build_py\n'}
+[10.491189] (jdamr200_description) StdoutLine: {'line': b'running install\n'}
+[10.493429] (jdamr200_description) StdoutLine: {'line': b'running install_lib\n'}
+[10.503315] (jdamr200_description) StdoutLine: {'line': b'running install_data\n'}
+[10.524307] (jdamr200_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.559657] (jdamr200_description) StdoutLine: {'line': b"removing '/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages/jdamr200_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.564269] (jdamr200_description) StdoutLine: {'line': b'Copying ../../build/jdamr200_description/jdamr200_description.egg-info to /home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages/jdamr200_description-0.0.0-py3.10.egg-info\n'}
+[10.576012] (jdamr200_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/jd/jdamr_200_ros/build/jdamr200_bringup/install.log'\n"}
+[10.577393] (jdamr200_description) StdoutLine: {'line': b'running install_scripts\n'}
+[10.584158] (-) TimerEvent: {}
+[10.687114] (-) TimerEvent: {}
+[10.788775] (-) TimerEvent: {}
+[10.790045] (jdamr200_node) StdoutLine: {'line': b'running egg_info\n'}
+[10.795362] (jdamr200_node) StdoutLine: {'line': b'writing ../../build/jdamr200_node/jdamr200_node.egg-info/PKG-INFO\n'}
+[10.800663] (jdamr200_node) StdoutLine: {'line': b'writing dependency_links to ../../build/jdamr200_node/jdamr200_node.egg-info/dependency_links.txt\n'}
+[10.806096] (jdamr200_node) StdoutLine: {'line': b'writing entry points to ../../build/jdamr200_node/jdamr200_node.egg-info/entry_points.txt\n'}
+[10.809858] (jdamr200_node) StdoutLine: {'line': b'writing requirements to ../../build/jdamr200_node/jdamr200_node.egg-info/requires.txt\n'}
+[10.813792] (jdamr200_node) StdoutLine: {'line': b'writing top-level names to ../../build/jdamr200_node/jdamr200_node.egg-info/top_level.txt\n'}
+[10.821153] (jdamr200_node) StdoutLine: {'line': b"reading manifest file '../../build/jdamr200_node/jdamr200_node.egg-info/SOURCES.txt'\n"}
+[10.827377] (jdamr200_node) StdoutLine: {'line': b"writing manifest file '../../build/jdamr200_node/jdamr200_node.egg-info/SOURCES.txt'\n"}
+[10.828691] (jdamr200_node) StdoutLine: {'line': b'running build\n'}
+[10.829437] (jdamr200_node) StdoutLine: {'line': b'running build_py\n'}
+[10.830983] (jdamr200_node) StdoutLine: {'line': b'running install\n'}
+[10.833567] (jdamr200_node) StdoutLine: {'line': b'running install_lib\n'}
+[10.851485] (jdamr200_node) StdoutLine: {'line': b'running install_data\n'}
+[10.853218] (jdamr200_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.873926] (jdamr200_node) StdoutLine: {'line': b"removing '/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages/jdamr200_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.877605] (jdamr200_node) StdoutLine: {'line': b'Copying ../../build/jdamr200_node/jdamr200_node.egg-info to /home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages/jdamr200_node-0.0.0-py3.10.egg-info\n'}
+[10.884624] (jdamr200_bringup) CommandEnded: {'returncode': 0}
+[10.891372] (jdamr200_node) StdoutLine: {'line': b'running install_scripts\n'}
+[10.892725] (-) TimerEvent: {}
+[10.957313] (jdamr200_description) StdoutLine: {'line': b"writing list of installed files to '/home/jd/jdamr_200_ros/build/jdamr200_description/install.log'\n"}
+[10.982824] (jdamr200_bringup) JobEnded: {'identifier': 'jdamr200_bringup', 'rc': 0}
+[10.989495] (ldlidar_sl_ros2) JobStarted: {'identifier': 'ldlidar_sl_ros2'}
+[10.995377] (-) TimerEvent: {}
+[11.056231] (ldlidar_sl_ros2) JobProgress: {'identifier': 'ldlidar_sl_ros2', 'progress': 'cmake'}
+[11.057384] (jdamr200_node) StdoutLine: {'line': b'Installing jdamr200_node script to /home/jd/jdamr_200_ros/install/jdamr200_node/lib/jdamr200_node\n'}
+[11.062603] (jdamr200_node) StdoutLine: {'line': b"writing list of installed files to '/home/jd/jdamr_200_ros/build/jdamr200_node/install.log'\n"}
+[11.077164] (ldlidar_sl_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/jd/jdamr_200_ros/src/ldlidar_sl_ros2', '-DCMAKE_INSTALL_PREFIX=/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2'], 'cwd': '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'jd'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1598'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jd'), ('OLDPWD', '/home/jd/jdamr_200_ros/src'), ('DESKTOP_SESSION', 'xfce'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jd/jdamr_200_ros/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jd'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jd-desktop:@/tmp/.ICE-unix/1370,unix/jd-desktop:/tmp/.ICE-unix/1370'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b9f9a9a6_1592_49d0_bb38_449596217c6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/jd/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXM6zsae/agent.1596'), ('ROS_DOMAIN_ID', '23'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jd'), ('AMENT_PREFIX_PATH', '/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble')]), 'shell': False}
+[11.107592] (-) TimerEvent: {}
+[11.210440] (-) TimerEvent: {}
+[11.312592] (-) TimerEvent: {}
+[11.379660] (jdamr200_description) CommandEnded: {'returncode': 0}
+[11.413114] (-) TimerEvent: {}
+[11.471220] (jdamr200_description) JobEnded: {'identifier': 'jdamr200_description', 'rc': 0}
+[11.492375] (jdamr200_node) CommandEnded: {'returncode': 0}
+[11.513691] (-) TimerEvent: {}
+[11.616538] (-) TimerEvent: {}
+[11.644117] (jdamr200_node) JobEnded: {'identifier': 'jdamr200_node', 'rc': 0}
+[11.717849] (-) TimerEvent: {}
+[11.826761] (-) TimerEvent: {}
+[11.831758] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[11.842337] (jdamr200_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/jdamr200_teleop', 'build', '--build-base', '/home/jd/jdamr_200_ros/build/jdamr200_teleop/build', 'install', '--record', '/home/jd/jdamr_200_ros/build/jdamr200_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jd/jdamr_200_ros/src/jdamr200_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'jd', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1598', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jd', 'OLDPWD': '/home/jd/jdamr_200_ros/src', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jd/jdamr_200_ros/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jd', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jd-desktop:@/tmp/.ICE-unix/1370,unix/jd-desktop:/tmp/.ICE-unix/1370', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b9f9a9a6_1592_49d0_bb38_449596217c6a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/jd/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.77', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXM6zsae/agent.1596', 'ROS_DOMAIN_ID': '23', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/jd', 'AMENT_PREFIX_PATH': '/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/jd/jdamr_200_ros/build/jdamr200_teleop', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/jd/jdamr_200_ros/build/jdamr200_teleop/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jd/jdamr_200_ros/install/jdamr200_cartographer'}, 'shell': False}
+[11.927256] (-) TimerEvent: {}
+[12.029138] (-) TimerEvent: {}
+[12.130198] (-) TimerEvent: {}
+[12.231476] (-) TimerEvent: {}
+[12.332415] (-) TimerEvent: {}
+[12.433290] (-) TimerEvent: {}
+[12.438855] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[12.476826] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.533472] (-) TimerEvent: {}
+[12.634179] (-) TimerEvent: {}
+[12.735002] (-) TimerEvent: {}
+[12.835901] (-) TimerEvent: {}
+[12.897651] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.925650] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[12.930853] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[12.933806] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[12.936064] (-) TimerEvent: {}
+[12.951241] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.036310] (-) TimerEvent: {}
+[13.137186] (-) TimerEvent: {}
+[13.238351] (-) TimerEvent: {}
+[13.339933] (-) TimerEvent: {}
+[13.440775] (-) TimerEvent: {}
+[13.541624] (-) TimerEvent: {}
+[13.554517] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.609742] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.611683] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.612984] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.641827] (-) TimerEvent: {}
+[13.668629] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[13.732442] (jdamr200_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[13.735939] (jdamr200_teleop) StdoutLine: {'line': b'writing ../../build/jdamr200_teleop/jdamr200_teleop.egg-info/PKG-INFO\n'}
+[13.738259] (jdamr200_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/jdamr200_teleop/jdamr200_teleop.egg-info/dependency_links.txt\n'}
+[13.739438] (jdamr200_teleop) StdoutLine: {'line': b'writing entry points to ../../build/jdamr200_teleop/jdamr200_teleop.egg-info/entry_points.txt\n'}
+[13.740576] (jdamr200_teleop) StdoutLine: {'line': b'writing requirements to ../../build/jdamr200_teleop/jdamr200_teleop.egg-info/requires.txt\n'}
+[13.741491] (jdamr200_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/jdamr200_teleop/jdamr200_teleop.egg-info/top_level.txt\n'}
+[13.742049] (-) TimerEvent: {}
+[13.750243] (jdamr200_teleop) StdoutLine: {'line': b"reading manifest file '../../build/jdamr200_teleop/jdamr200_teleop.egg-info/SOURCES.txt'\n"}
+[13.754278] (jdamr200_teleop) StdoutLine: {'line': b"writing manifest file '../../build/jdamr200_teleop/jdamr200_teleop.egg-info/SOURCES.txt'\n"}
+[13.754937] (jdamr200_teleop) StdoutLine: {'line': b'running build\n'}
+[13.755294] (jdamr200_teleop) StdoutLine: {'line': b'running build_py\n'}
+[13.756511] (jdamr200_teleop) StdoutLine: {'line': b'running install\n'}
+[13.758009] (jdamr200_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[13.764950] (jdamr200_teleop) StdoutLine: {'line': b'running install_data\n'}
+[13.765885] (jdamr200_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.778122] (jdamr200_teleop) StdoutLine: {'line': b"removing '/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages/jdamr200_teleop-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.779612] (jdamr200_teleop) StdoutLine: {'line': b'Copying ../../build/jdamr200_teleop/jdamr200_teleop.egg-info to /home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages/jdamr200_teleop-0.0.0-py3.10.egg-info\n'}
+[13.792827] (jdamr200_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[13.842600] (-) TimerEvent: {}
+[13.921436] (jdamr200_teleop) StdoutLine: {'line': b'Installing jdamr_teleop script to /home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/jdamr200_teleop\n'}
+[13.925192] (jdamr200_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/jd/jdamr_200_ros/build/jdamr200_teleop/install.log'\n"}
+[13.942928] (-) TimerEvent: {}
+[14.045485] (-) TimerEvent: {}
+[14.148016] (-) TimerEvent: {}
+[14.160183] (jdamr200_teleop) CommandEnded: {'returncode': 0}
+[14.247337] (jdamr200_teleop) JobEnded: {'identifier': 'jdamr200_teleop', 'rc': 0}
+[14.249224] (-) TimerEvent: {}
+[14.349971] (-) TimerEvent: {}
+[14.451146] (-) TimerEvent: {}
+[14.552084] (-) TimerEvent: {}
+[14.653389] (-) TimerEvent: {}
+[14.754037] (-) TimerEvent: {}
+[14.854885] (-) TimerEvent: {}
+[14.871176] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[14.955037] (-) TimerEvent: {}
+[15.055743] (-) TimerEvent: {}
+[15.156474] (-) TimerEvent: {}
+[15.257162] (-) TimerEvent: {}
+[15.357847] (-) TimerEvent: {}
+[15.458537] (-) TimerEvent: {}
+[15.559234] (-) TimerEvent: {}
+[15.598934] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[15.659437] (-) TimerEvent: {}
+[15.760149] (-) TimerEvent: {}
+[15.860841] (-) TimerEvent: {}
+[15.961559] (-) TimerEvent: {}
+[16.025569] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[16.061738] (-) TimerEvent: {}
+[16.078907] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[16.158257] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[16.161854] (-) TimerEvent: {}
+[16.250592] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[16.262017] (-) TimerEvent: {}
+[16.362659] (-) TimerEvent: {}
+[16.370641] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[16.462862] (-) TimerEvent: {}
+[16.563592] (-) TimerEvent: {}
+[16.664333] (-) TimerEvent: {}
+[16.719973] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[16.749949] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[16.764491] (-) TimerEvent: {}
+[16.865194] (-) TimerEvent: {}
+[16.965866] (-) TimerEvent: {}
+[17.066544] (-) TimerEvent: {}
+[17.167291] (-) TimerEvent: {}
+[17.268312] (-) TimerEvent: {}
+[17.369139] (-) TimerEvent: {}
+[17.469884] (-) TimerEvent: {}
+[17.478868] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[17.570097] (-) TimerEvent: {}
+[17.670817] (-) TimerEvent: {}
+[17.762602] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[17.771007] (-) TimerEvent: {}
+[17.871710] (-) TimerEvent: {}
+[17.972458] (-) TimerEvent: {}
+[18.073225] (-) TimerEvent: {}
+[18.173934] (-) TimerEvent: {}
+[18.222339] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[18.274159] (-) TimerEvent: {}
+[18.319488] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[18.374364] (-) TimerEvent: {}
+[18.475243] (-) TimerEvent: {}
+[18.576067] (-) TimerEvent: {}
+[18.676841] (-) TimerEvent: {}
+[18.709025] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[18.712057] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[18.777054] (-) TimerEvent: {}
+[18.877997] (-) TimerEvent: {}
+[18.978766] (-) TimerEvent: {}
+[19.079623] (-) TimerEvent: {}
+[19.098908] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[19.103730] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[19.179848] (-) TimerEvent: {}
+[19.281035] (-) TimerEvent: {}
+[19.381771] (-) TimerEvent: {}
+[19.414700] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[19.481999] (-) TimerEvent: {}
+[19.582709] (-) TimerEvent: {}
+[19.591050] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[19.682891] (-) TimerEvent: {}
+[19.783572] (-) TimerEvent: {}
+[19.884487] (-) TimerEvent: {}
+[19.985613] (-) TimerEvent: {}
+[20.086365] (-) TimerEvent: {}
+[20.187049] (-) TimerEvent: {}
+[20.189903] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[20.240747] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[20.241726] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jd/jdamr_200_ros/src/ldlidar_sl_ros2/include;/home/jd/jdamr_200_ros/src/ldlidar_sl_ros2/ldlidar_driver/include\n'}
+[20.242249] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[20.287228] (-) TimerEvent: {}
+[20.295099] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[20.295664] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[20.303551] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[20.317162] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[20.326579] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[20.374760] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[20.375330] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[20.383181] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[20.387398] (-) TimerEvent: {}
+[20.391889] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.474546] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[20.487594] (-) TimerEvent: {}
+[20.491974] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/jd/jdamr_200_ros/build/ldlidar_sl_ros2\n'}
+[20.536137] (ldlidar_sl_ros2) CommandEnded: {'returncode': 0}
+[20.539918] (ldlidar_sl_ros2) JobProgress: {'identifier': 'ldlidar_sl_ros2', 'progress': 'build'}
+[20.545055] (ldlidar_sl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2', '--', '-j4', '-l4'], 'cwd': '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'jd'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1598'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jd'), ('OLDPWD', '/home/jd/jdamr_200_ros/src'), ('DESKTOP_SESSION', 'xfce'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jd/jdamr_200_ros/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jd'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jd-desktop:@/tmp/.ICE-unix/1370,unix/jd-desktop:/tmp/.ICE-unix/1370'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b9f9a9a6_1592_49d0_bb38_449596217c6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/jd/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXM6zsae/agent.1596'), ('ROS_DOMAIN_ID', '23'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jd'), ('AMENT_PREFIX_PATH', '/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble')]), 'shell': False}
+[20.587839] (-) TimerEvent: {}
+[20.688543] (-) TimerEvent: {}
+[20.789410] (-) TimerEvent: {}
+[20.792428] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/src/demo.cpp.o\x1b[0m\n'}
+[20.800373] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/ldlidar_driver.cpp.o\x1b[0m\n'}
+[20.804110] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/lipkg.cpp.o\x1b[0m\n'}
+[20.805294] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/log_module.cpp.o\x1b[0m\n'}
+[20.889578] (-) TimerEvent: {}
+[20.991008] (-) TimerEvent: {}
+[21.092659] (-) TimerEvent: {}
+[21.193491] (-) TimerEvent: {}
+[21.294345] (-) TimerEvent: {}
+[21.395158] (-) TimerEvent: {}
+[21.496803] (-) TimerEvent: {}
+[21.597987] (-) TimerEvent: {}
+[21.699310] (-) TimerEvent: {}
+[21.800953] (-) TimerEvent: {}
+[21.903187] (-) TimerEvent: {}
+[22.004487] (-) TimerEvent: {}
+[22.106161] (-) TimerEvent: {}
+[22.207654] (-) TimerEvent: {}
+[22.309181] (-) TimerEvent: {}
+[22.410791] (-) TimerEvent: {}
+[22.512790] (-) TimerEvent: {}
+[22.614839] (-) TimerEvent: {}
+[22.716855] (-) TimerEvent: {}
+[22.819498] (-) TimerEvent: {}
+[22.925603] (-) TimerEvent: {}
+[23.027406] (-) TimerEvent: {}
+[23.129343] (-) TimerEvent: {}
+[23.236103] (-) TimerEvent: {}
+[23.344132] (-) TimerEvent: {}
+[23.448355] (-) TimerEvent: {}
+[23.568522] (-) TimerEvent: {}
+[23.602843] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/serial_interface_linux.cpp.o\x1b[0m\n'}
+[23.668802] (-) TimerEvent: {}
+[23.773798] (-) TimerEvent: {}
+[23.879187] (-) TimerEvent: {}
+[23.981667] (-) TimerEvent: {}
+[24.083751] (-) TimerEvent: {}
+[24.186921] (-) TimerEvent: {}
+[24.289095] (-) TimerEvent: {}
+[24.410724] (-) TimerEvent: {}
+[24.513328] (-) TimerEvent: {}
+[24.614789] (-) TimerEvent: {}
+[24.716133] (-) TimerEvent: {}
+[24.822825] (-) TimerEvent: {}
+[24.925527] (-) TimerEvent: {}
+[25.027522] (-) TimerEvent: {}
+[25.129947] (-) TimerEvent: {}
+[25.231841] (-) TimerEvent: {}
+[25.333178] (-) TimerEvent: {}
+[25.434745] (-) TimerEvent: {}
+[25.536276] (-) TimerEvent: {}
+[25.638691] (-) TimerEvent: {}
+[25.740130] (-) TimerEvent: {}
+[25.841539] (-) TimerEvent: {}
+[25.943400] (-) TimerEvent: {}
+[26.045061] (-) TimerEvent: {}
+[26.146508] (-) TimerEvent: {}
+[26.248734] (-) TimerEvent: {}
+[26.350407] (-) TimerEvent: {}
+[26.451626] (-) TimerEvent: {}
+[26.554235] (-) TimerEvent: {}
+[26.656890] (-) TimerEvent: {}
+[26.759701] (-) TimerEvent: {}
+[26.862795] (-) TimerEvent: {}
+[26.966782] (-) TimerEvent: {}
+[27.068727] (-) TimerEvent: {}
+[27.171252] (-) TimerEvent: {}
+[27.273686] (-) TimerEvent: {}
+[27.376093] (-) TimerEvent: {}
+[27.477441] (-) TimerEvent: {}
+[27.578794] (-) TimerEvent: {}
+[27.680037] (-) TimerEvent: {}
+[27.781127] (-) TimerEvent: {}
+[27.882198] (-) TimerEvent: {}
+[27.983867] (-) TimerEvent: {}
+[28.085399] (-) TimerEvent: {}
+[28.187156] (-) TimerEvent: {}
+[28.288917] (-) TimerEvent: {}
+[28.390258] (-) TimerEvent: {}
+[28.491431] (-) TimerEvent: {}
+[28.592798] (-) TimerEvent: {}
+[28.694187] (-) TimerEvent: {}
+[28.795622] (-) TimerEvent: {}
+[28.897810] (-) TimerEvent: {}
+[29.019762] (-) TimerEvent: {}
+[29.065571] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/sl_transform.cpp.o\x1b[0m\n'}
+[29.120099] (-) TimerEvent: {}
+[29.223331] (-) TimerEvent: {}
+[29.324728] (-) TimerEvent: {}
+[29.702286] (-) TimerEvent: {}
+[29.811985] (-) TimerEvent: {}
+[29.913789] (-) TimerEvent: {}
+[30.017540] (-) TimerEvent: {}
+[30.120772] (-) TimerEvent: {}
+[30.228044] (-) TimerEvent: {}
+[30.330678] (-) TimerEvent: {}
+[30.441706] (-) TimerEvent: {}
+[30.543147] (-) TimerEvent: {}
+[30.650650] (-) TimerEvent: {}
+[30.761520] (-) TimerEvent: {}
+[30.863059] (-) TimerEvent: {}
+[30.907126] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/slbf.cpp.o\x1b[0m\n'}
+[30.963514] (-) TimerEvent: {}
+[31.066229] (-) TimerEvent: {}
+[31.172131] (-) TimerEvent: {}
+[31.273918] (-) TimerEvent: {}
+[31.376258] (-) TimerEvent: {}
+[31.482029] (-) TimerEvent: {}
+[31.587605] (-) TimerEvent: {}
+[31.688992] (-) TimerEvent: {}
+[31.790298] (-) TimerEvent: {}
+[31.900503] (-) TimerEvent: {}
+[32.005661] (-) TimerEvent: {}
+[32.109128] (-) TimerEvent: {}
+[32.216559] (-) TimerEvent: {}
+[32.324658] (-) TimerEvent: {}
+[32.434036] (-) TimerEvent: {}
+[32.536554] (-) TimerEvent: {}
+[32.644116] (-) TimerEvent: {}
+[32.751952] (-) TimerEvent: {}
+[32.860419] (-) TimerEvent: {}
+[32.965438] (-) TimerEvent: {}
+[33.070661] (-) TimerEvent: {}
+[33.176188] (-) TimerEvent: {}
+[33.281957] (-) TimerEvent: {}
+[33.390674] (-) TimerEvent: {}
+[33.492560] (-) TimerEvent: {}
+[33.593711] (-) TimerEvent: {}
+[33.695499] (-) TimerEvent: {}
+[33.796863] (-) TimerEvent: {}
+[33.898301] (-) TimerEvent: {}
+[34.000120] (-) TimerEvent: {}
+[34.101571] (-) TimerEvent: {}
+[34.203320] (-) TimerEvent: {}
+[34.304570] (-) TimerEvent: {}
+[34.405694] (-) TimerEvent: {}
+[34.506936] (-) TimerEvent: {}
+[34.608374] (-) TimerEvent: {}
+[34.709606] (-) TimerEvent: {}
+[34.810809] (-) TimerEvent: {}
+[34.912729] (-) TimerEvent: {}
+[35.013931] (-) TimerEvent: {}
+[35.115162] (-) TimerEvent: {}
+[35.216605] (-) TimerEvent: {}
+[35.318113] (-) TimerEvent: {}
+[35.419383] (-) TimerEvent: {}
+[35.520623] (-) TimerEvent: {}
+[35.626296] (-) TimerEvent: {}
+[35.728188] (-) TimerEvent: {}
+[35.840369] (-) TimerEvent: {}
+[35.942781] (-) TimerEvent: {}
+[36.045321] (-) TimerEvent: {}
+[36.146551] (-) TimerEvent: {}
+[36.248221] (-) TimerEvent: {}
+[36.349940] (-) TimerEvent: {}
+[36.452659] (-) TimerEvent: {}
+[36.558446] (-) TimerEvent: {}
+[36.661485] (-) TimerEvent: {}
+[36.762940] (-) TimerEvent: {}
+[36.863916] (-) TimerEvent: {}
+[36.964804] (-) TimerEvent: {}
+[37.065770] (-) TimerEvent: {}
+[37.166792] (-) TimerEvent: {}
+[37.267664] (-) TimerEvent: {}
+[37.368695] (-) TimerEvent: {}
+[37.469699] (-) TimerEvent: {}
+[37.570716] (-) TimerEvent: {}
+[37.671769] (-) TimerEvent: {}
+[37.772591] (-) TimerEvent: {}
+[37.873379] (-) TimerEvent: {}
+[37.974165] (-) TimerEvent: {}
+[38.075150] (-) TimerEvent: {}
+[38.176203] (-) TimerEvent: {}
+[38.277223] (-) TimerEvent: {}
+[38.378029] (-) TimerEvent: {}
+[38.478983] (-) TimerEvent: {}
+[38.579749] (-) TimerEvent: {}
+[38.680584] (-) TimerEvent: {}
+[38.781701] (-) TimerEvent: {}
+[38.884450] (-) TimerEvent: {}
+[38.986008] (-) TimerEvent: {}
+[39.087621] (-) TimerEvent: {}
+[39.191894] (-) TimerEvent: {}
+[39.293243] (-) TimerEvent: {}
+[39.394945] (-) TimerEvent: {}
+[39.495973] (-) TimerEvent: {}
+[39.596747] (-) TimerEvent: {}
+[39.697593] (-) TimerEvent: {}
+[39.798377] (-) TimerEvent: {}
+[39.899197] (-) TimerEvent: {}
+[39.999979] (-) TimerEvent: {}
+[40.100739] (-) TimerEvent: {}
+[40.201555] (-) TimerEvent: {}
+[40.302860] (-) TimerEvent: {}
+[40.405655] (-) TimerEvent: {}
+[40.507494] (-) TimerEvent: {}
+[40.609002] (-) TimerEvent: {}
+[40.709939] (-) TimerEvent: {}
+[40.810787] (-) TimerEvent: {}
+[40.911629] (-) TimerEvent: {}
+[41.012500] (-) TimerEvent: {}
+[41.113328] (-) TimerEvent: {}
+[41.214190] (-) TimerEvent: {}
+[41.315037] (-) TimerEvent: {}
+[41.415866] (-) TimerEvent: {}
+[41.516713] (-) TimerEvent: {}
+[41.617512] (-) TimerEvent: {}
+[41.718347] (-) TimerEvent: {}
+[41.819195] (-) TimerEvent: {}
+[41.919996] (-) TimerEvent: {}
+[42.020754] (-) TimerEvent: {}
+[42.121548] (-) TimerEvent: {}
+[42.222390] (-) TimerEvent: {}
+[42.323195] (-) TimerEvent: {}
+[42.423994] (-) TimerEvent: {}
+[42.524804] (-) TimerEvent: {}
+[42.625609] (-) TimerEvent: {}
+[42.726463] (-) TimerEvent: {}
+[42.827265] (-) TimerEvent: {}
+[42.928151] (-) TimerEvent: {}
+[43.028959] (-) TimerEvent: {}
+[43.129744] (-) TimerEvent: {}
+[43.230582] (-) TimerEvent: {}
+[43.331352] (-) TimerEvent: {}
+[43.432202] (-) TimerEvent: {}
+[43.533091] (-) TimerEvent: {}
+[43.633927] (-) TimerEvent: {}
+[43.734722] (-) TimerEvent: {}
+[43.835600] (-) TimerEvent: {}
+[43.936476] (-) TimerEvent: {}
+[44.037289] (-) TimerEvent: {}
+[44.138175] (-) TimerEvent: {}
+[44.238988] (-) TimerEvent: {}
+[44.339855] (-) TimerEvent: {}
+[44.440827] (-) TimerEvent: {}
+[44.541840] (-) TimerEvent: {}
+[44.642632] (-) TimerEvent: {}
+[44.743755] (-) TimerEvent: {}
+[44.844597] (-) TimerEvent: {}
+[44.945396] (-) TimerEvent: {}
+[45.046181] (-) TimerEvent: {}
+[45.146974] (-) TimerEvent: {}
+[45.247935] (-) TimerEvent: {}
+[45.349079] (-) TimerEvent: {}
+[45.450404] (-) TimerEvent: {}
+[45.552386] (-) TimerEvent: {}
+[45.653189] (-) TimerEvent: {}
+[45.753984] (-) TimerEvent: {}
+[45.854797] (-) TimerEvent: {}
+[45.955604] (-) TimerEvent: {}
+[46.056450] (-) TimerEvent: {}
+[46.157235] (-) TimerEvent: {}
+[46.258104] (-) TimerEvent: {}
+[46.359646] (-) TimerEvent: {}
+[46.460858] (-) TimerEvent: {}
+[46.561914] (-) TimerEvent: {}
+[46.663147] (-) TimerEvent: {}
+[46.764266] (-) TimerEvent: {}
+[46.865458] (-) TimerEvent: {}
+[46.966533] (-) TimerEvent: {}
+[47.067387] (-) TimerEvent: {}
+[47.168215] (-) TimerEvent: {}
+[47.269018] (-) TimerEvent: {}
+[47.370230] (-) TimerEvent: {}
+[47.471726] (-) TimerEvent: {}
+[47.572520] (-) TimerEvent: {}
+[47.673311] (-) TimerEvent: {}
+[47.774156] (-) TimerEvent: {}
+[47.875066] (-) TimerEvent: {}
+[47.976207] (-) TimerEvent: {}
+[48.077094] (-) TimerEvent: {}
+[48.178243] (-) TimerEvent: {}
+[48.279318] (-) TimerEvent: {}
+[48.380142] (-) TimerEvent: {}
+[48.481019] (-) TimerEvent: {}
+[48.581814] (-) TimerEvent: {}
+[48.682779] (-) TimerEvent: {}
+[48.783564] (-) TimerEvent: {}
+[48.884447] (-) TimerEvent: {}
+[48.985659] (-) TimerEvent: {}
+[49.086683] (-) TimerEvent: {}
+[49.187480] (-) TimerEvent: {}
+[49.288549] (-) TimerEvent: {}
+[49.389324] (-) TimerEvent: {}
+[49.490115] (-) TimerEvent: {}
+[49.590907] (-) TimerEvent: {}
+[49.691660] (-) TimerEvent: {}
+[49.792530] (-) TimerEvent: {}
+[49.893527] (-) TimerEvent: {}
+[49.994618] (-) TimerEvent: {}
+[50.095375] (-) TimerEvent: {}
+[50.196214] (-) TimerEvent: {}
+[50.296983] (-) TimerEvent: {}
+[50.397733] (-) TimerEvent: {}
+[50.498476] (-) TimerEvent: {}
+[50.599246] (-) TimerEvent: {}
+[50.700092] (-) TimerEvent: {}
+[50.802058] (-) TimerEvent: {}
+[50.903410] (-) TimerEvent: {}
+[51.004529] (-) TimerEvent: {}
+[51.105310] (-) TimerEvent: {}
+[51.206134] (-) TimerEvent: {}
+[51.306930] (-) TimerEvent: {}
+[51.407976] (-) TimerEvent: {}
+[51.509367] (-) TimerEvent: {}
+[51.610186] (-) TimerEvent: {}
+[51.710985] (-) TimerEvent: {}
+[51.811731] (-) TimerEvent: {}
+[51.912554] (-) TimerEvent: {}
+[52.013853] (-) TimerEvent: {}
+[52.116010] (-) TimerEvent: {}
+[52.217243] (-) TimerEvent: {}
+[52.318514] (-) TimerEvent: {}
+[52.419634] (-) TimerEvent: {}
+[52.520556] (-) TimerEvent: {}
+[52.622213] (-) TimerEvent: {}
+[52.722965] (-) TimerEvent: {}
+[52.823839] (-) TimerEvent: {}
+[52.924608] (-) TimerEvent: {}
+[53.025395] (-) TimerEvent: {}
+[53.126172] (-) TimerEvent: {}
+[53.226989] (-) TimerEvent: {}
+[53.327777] (-) TimerEvent: {}
+[53.428586] (-) TimerEvent: {}
+[53.529398] (-) TimerEvent: {}
+[53.630586] (-) TimerEvent: {}
+[53.732475] (-) TimerEvent: {}
+[53.833587] (-) TimerEvent: {}
+[53.934388] (-) TimerEvent: {}
+[54.035167] (-) TimerEvent: {}
+[54.135980] (-) TimerEvent: {}
+[54.236756] (-) TimerEvent: {}
+[54.337525] (-) TimerEvent: {}
+[54.438362] (-) TimerEvent: {}
+[54.539168] (-) TimerEvent: {}
+[54.640027] (-) TimerEvent: {}
+[54.741104] (-) TimerEvent: {}
+[54.842282] (-) TimerEvent: {}
+[54.943414] (-) TimerEvent: {}
+[54.973826] (ldlidar_sl_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ldlidar_sl_ros2_node\x1b[0m\n'}
+[55.043604] (-) TimerEvent: {}
+[55.144524] (-) TimerEvent: {}
+[55.246037] (-) TimerEvent: {}
+[55.347864] (-) TimerEvent: {}
+[55.449567] (-) TimerEvent: {}
+[55.551320] (-) TimerEvent: {}
+[55.655008] (-) TimerEvent: {}
+[55.756338] (-) TimerEvent: {}
+[55.857790] (-) TimerEvent: {}
+[55.959224] (-) TimerEvent: {}
+[56.060309] (-) TimerEvent: {}
+[56.161473] (-) TimerEvent: {}
+[56.262531] (-) TimerEvent: {}
+[56.363488] (-) TimerEvent: {}
+[56.464618] (-) TimerEvent: {}
+[56.565587] (-) TimerEvent: {}
+[56.666588] (-) TimerEvent: {}
+[56.767453] (-) TimerEvent: {}
+[56.802000] (ldlidar_sl_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_sl_ros2_node\n'}
+[56.864262] (ldlidar_sl_ros2) CommandEnded: {'returncode': 0}
+[56.876608] (-) TimerEvent: {}
+[56.884216] (ldlidar_sl_ros2) JobProgress: {'identifier': 'ldlidar_sl_ros2', 'progress': 'install'}
+[56.891915] (ldlidar_sl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2'], 'cwd': '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'jd'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1598'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jd'), ('OLDPWD', '/home/jd/jdamr_200_ros/src'), ('DESKTOP_SESSION', 'xfce'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jd/jdamr_200_ros/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jd'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jd-desktop:@/tmp/.ICE-unix/1370,unix/jd-desktop:/tmp/.ICE-unix/1370'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b9f9a9a6_1592_49d0_bb38_449596217c6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/jd/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXM6zsae/agent.1596'), ('ROS_DOMAIN_ID', '23'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jd'), ('AMENT_PREFIX_PATH', '/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xfce'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/xfce:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jd/jdamr_200_ros/install/jdamr200_cartographer:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble')]), 'shell': False}
+[56.930845] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[56.931695] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/lib/ldlidar_sl_ros2/ldlidar_sl_ros2_node\n'}
+[56.944613] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/lib/ldlidar_sl_ros2/ldlidar_sl_ros2_node" to ""\n'}
+[56.945153] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch\n'}
+[56.945639] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/ld14p.launch.py\n'}
+[56.946638] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/ld14_remote.launch.py\n'}
+[56.947624] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/ld14.launch.py\n'}
+[56.948592] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/viewer_ld14.launch.py\n'}
+[56.949479] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/viewer_ld14p.launch.py\n'}
+[56.950368] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2\n'}
+[56.950936] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2/ldlidar.rviz\n'}
+[56.951919] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts\n'}
+[56.952521] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/ldlidar.rules\n'}
+[56.953538] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/create_udev_rules.sh\n'}
+[56.954422] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/delete_udev_rules.sh\n'}
+[56.956155] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_sl_ros2\n'}
+[56.957758] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_sl_ros2\n'}
+[56.959230] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.sh\n'}
+[56.964788] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.dsv\n'}
+[56.966559] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.sh\n'}
+[56.968465] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.dsv\n'}
+[56.970490] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.bash\n'}
+[56.972337] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.sh\n'}
+[56.974035] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.zsh\n'}
+[56.975655] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.dsv\n'}
+[56.976647] (-) TimerEvent: {}
+[56.978413] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv\n'}
+[56.979451] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ament_index/resource_index/packages/ldlidar_sl_ros2\n'}
+[56.982244] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config.cmake\n'}
+[56.983574] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config-version.cmake\n'}
+[56.985431] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.xml\n'}
+[56.994701] (ldlidar_sl_ros2) CommandEnded: {'returncode': 0}
+[57.077210] (-) TimerEvent: {}
+[57.091944] (ldlidar_sl_ros2) JobEnded: {'identifier': 'ldlidar_sl_ros2', 'rc': 0}
+[57.097821] (-) EventReactorShutdown: {}

@@ -1,0 +1,21 @@
+[5.648s] Invoking command in '/home/jd/jdamr_200_ros/src/jdamr200_teleop': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_teleop/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_teleop build --build-base /home/jd/jdamr_200_ros/build/jdamr200_teleop/build install --record /home/jd/jdamr_200_ros/build/jdamr200_teleop/install.log --single-version-externally-managed install_data
+[7.913s] running egg_info
+[7.916s] writing ../../build/jdamr200_teleop/jdamr200_teleop.egg-info/PKG-INFO
+[7.918s] writing dependency_links to ../../build/jdamr200_teleop/jdamr200_teleop.egg-info/dependency_links.txt
+[7.919s] writing entry points to ../../build/jdamr200_teleop/jdamr200_teleop.egg-info/entry_points.txt
+[7.920s] writing requirements to ../../build/jdamr200_teleop/jdamr200_teleop.egg-info/requires.txt
+[7.920s] writing top-level names to ../../build/jdamr200_teleop/jdamr200_teleop.egg-info/top_level.txt
+[7.928s] reading manifest file '../../build/jdamr200_teleop/jdamr200_teleop.egg-info/SOURCES.txt'
+[7.932s] writing manifest file '../../build/jdamr200_teleop/jdamr200_teleop.egg-info/SOURCES.txt'
+[7.933s] running build
+[7.933s] running build_py
+[7.935s] running install
+[7.936s] running install_lib
+[7.941s] running install_data
+[7.942s] running install_egg_info
+[7.950s] removing '/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages/jdamr200_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[7.951s] Copying ../../build/jdamr200_teleop/jdamr200_teleop.egg-info to /home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages/jdamr200_teleop-0.0.0-py3.10.egg-info
+[7.958s] running install_scripts
+[8.058s] Installing jdamr_teleop script to /home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/jdamr200_teleop
+[8.060s] writing list of installed files to '/home/jd/jdamr_200_ros/build/jdamr200_teleop/install.log'
+[8.220s] Invoked command in '/home/jd/jdamr_200_ros/src/jdamr200_teleop' returned '0': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_teleop/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_teleop build --build-base /home/jd/jdamr_200_ros/build/jdamr200_teleop/build install --record /home/jd/jdamr_200_ros/build/jdamr200_teleop/install.log --single-version-externally-managed install_data

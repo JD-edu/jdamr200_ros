@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="jdamr200">
+     <!-- robot body link  -->
+    <link name="body_link">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/> <!-- rpy: roll pitch yaw origin: origin point-->
+            <geometry>
+                <box size="1 0.6 0.3"/>  <!-- box size -->
+            </geometry>
+            <material name="red">
+                <color rgba="1 0 0 1"/>
+            </material>
+        </visual>
+    </link>
+     <joint name="wheel1_joint" type="continuous">
+        <parent link="body_link"/>
+        <child link="wheel1_link" />
+        <origin xyz="-0.3 -0.35 -0.1" rpy="0 0 0"/>
+        <axis xyz="0 1 0" />
+    </joint>
+    <link name="wheel1_link">
+        <visual>
+            <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+            <geometry>
+                <cylinder length="0.1" radius="0.15"/>
+            </geometry>
+            <material name="yellow">
+                <color rgba="1 1 0 1"/>
+            </material>
+        </visual>
+    </link>
+         <joint name="wheel2_joint" type="continuous">
+        <parent link="body_link"/>
+        <child link="wheel2_link" />
+        <origin xyz="0.3 -0.35 -0.1" rpy="0 0 0"/>
+        <axis xyz="0 1 0" />
+    </joint>
+    <link name="wheel2_link">
+        <visual>
+            <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+            <geometry>
+                <cylinder length="0.1" radius="0.15"/>
+            </geometry>
+            <material name="yellow">
+                <color rgba="1 1 0 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <gazebo>
+        <plugin name="gazebo_ros_diff_drive" filename="libgazebo_ros_diff_drive.so">
+        <left_joint>wheel1_joint</left_joint>
+        <right_joint>wheel2_joint</right_joint>
+        <wheel_separation>0.6</wheel_separation>
+        <wheel_radius>0.1</wheel_radius>
+        <robot_base_frame>body_link</robot_base_frame>
+        <odom_frame>odom</odom_frame>
+        </plugin>
+  </gazebo>
+
+</robot>

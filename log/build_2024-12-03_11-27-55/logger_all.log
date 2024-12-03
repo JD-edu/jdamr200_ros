@@ -1,0 +1,398 @@
+[0.564s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[0.565s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa4c9aa10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa4e5fe20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa4e5fe20>>)
+[1.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.233s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jd/jdamr_200_ros'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.280s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_bringup) by extension 'ignore'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_bringup) by extension 'ignore_ament_install'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_bringup) by extensions ['colcon_pkg']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_bringup) by extension 'colcon_pkg'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_bringup) by extensions ['colcon_meta']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_bringup) by extension 'colcon_meta'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_bringup) by extensions ['ros']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_bringup) by extension 'ros'
+[1.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jdamr200_bringup' with type 'ros.ament_python' and name 'jdamr200_bringup'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_cartographer) by extension 'ignore'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_cartographer) by extension 'ignore_ament_install'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_cartographer) by extensions ['colcon_pkg']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_cartographer) by extension 'colcon_pkg'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_cartographer) by extensions ['colcon_meta']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_cartographer) by extension 'colcon_meta'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_cartographer) by extensions ['ros']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_cartographer) by extension 'ros'
+[1.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jdamr200_cartographer' with type 'ros.ament_cmake' and name 'jdamr200_cartographer'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_description) by extensions ['ignore', 'ignore_ament_install']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_description) by extension 'ignore'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_description) by extension 'ignore_ament_install'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_description) by extensions ['colcon_pkg']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_description) by extension 'colcon_pkg'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_description) by extensions ['colcon_meta']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_description) by extension 'colcon_meta'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_description) by extensions ['ros']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_description) by extension 'ros'
+[1.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jdamr200_description' with type 'ros.ament_python' and name 'jdamr200_description'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_node) by extensions ['ignore', 'ignore_ament_install']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_node) by extension 'ignore'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_node) by extension 'ignore_ament_install'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_node) by extensions ['colcon_pkg']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_node) by extension 'colcon_pkg'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_node) by extensions ['colcon_meta']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_node) by extension 'colcon_meta'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_node) by extensions ['ros']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_node) by extension 'ros'
+[1.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jdamr200_node' with type 'ros.ament_python' and name 'jdamr200_node'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_teleop) by extension 'ignore'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_teleop) by extension 'ignore_ament_install'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_teleop) by extensions ['colcon_pkg']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_teleop) by extension 'colcon_pkg'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_teleop) by extensions ['colcon_meta']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_teleop) by extension 'colcon_meta'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_teleop) by extensions ['ros']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr200_teleop) by extension 'ros'
+[1.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jdamr200_teleop' with type 'ros.ament_python' and name 'jdamr200_teleop'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ignore'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ignore_ament_install'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['colcon_pkg']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'colcon_pkg'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['colcon_meta']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'colcon_meta'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['ros']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ros'
+[1.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ldlidar_sl_ros2' with type 'ros.ament_cmake' and name 'ldlidar_sl_ros2'
+[1.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_bringup' build argument 'cmake_args' from command line to 'None'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_bringup' build argument 'cmake_target' from command line to 'None'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.407s] DEBUG:colcon.colcon_core.verb:Building package 'jdamr200_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jd/jdamr_200_ros/build/jdamr200_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jd/jdamr_200_ros/install/jdamr200_bringup', 'merge_install': False, 'path': '/home/jd/jdamr_200_ros/src/jdamr200_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.408s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_cartographer' build argument 'cmake_args' from command line to 'None'
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_cartographer' build argument 'cmake_target' from command line to 'None'
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.410s] DEBUG:colcon.colcon_core.verb:Building package 'jdamr200_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jd/jdamr_200_ros/build/jdamr200_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jd/jdamr_200_ros/install/jdamr200_cartographer', 'merge_install': False, 'path': '/home/jd/jdamr_200_ros/src/jdamr200_cartographer', 'symlink_install': False, 'test_result_base': None}
+[1.411s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_description' build argument 'cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_description' build argument 'cmake_target' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.412s] DEBUG:colcon.colcon_core.verb:Building package 'jdamr200_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jd/jdamr_200_ros/build/jdamr200_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jd/jdamr_200_ros/install/jdamr200_description', 'merge_install': False, 'path': '/home/jd/jdamr_200_ros/src/jdamr200_description', 'symlink_install': False, 'test_result_base': None}
+[1.414s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_node' build argument 'cmake_args' from command line to 'None'
+[1.414s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_node' build argument 'cmake_target' from command line to 'None'
+[1.414s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.414s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.414s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.414s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.414s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.415s] DEBUG:colcon.colcon_core.verb:Building package 'jdamr200_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jd/jdamr_200_ros/build/jdamr200_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jd/jdamr_200_ros/install/jdamr200_node', 'merge_install': False, 'path': '/home/jd/jdamr_200_ros/src/jdamr200_node', 'symlink_install': False, 'test_result_base': None}
+[1.416s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_teleop' build argument 'cmake_args' from command line to 'None'
+[1.416s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_teleop' build argument 'cmake_target' from command line to 'None'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'jdamr200_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.417s] DEBUG:colcon.colcon_core.verb:Building package 'jdamr200_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jd/jdamr_200_ros/build/jdamr200_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jd/jdamr_200_ros/install/jdamr200_teleop', 'merge_install': False, 'path': '/home/jd/jdamr_200_ros/src/jdamr200_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_args' from command line to 'None'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_target' from command line to 'None'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.420s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_sl_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2', 'merge_install': False, 'path': '/home/jd/jdamr_200_ros/src/ldlidar_sl_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.420s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.424s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.425s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jd/jdamr_200_ros/src/jdamr200_bringup' with build type 'ament_python'
+[1.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('jdamr200_bringup', 'ament_prefix_path')
+[1.435s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/hook/ament_prefix_path.ps1'
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/hook/ament_prefix_path.dsv'
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/hook/ament_prefix_path.sh'
+[1.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.474s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jd/jdamr_200_ros/src/jdamr200_cartographer' with build type 'ament_cmake'
+[1.475s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jd/jdamr_200_ros/src/jdamr200_cartographer'
+[1.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.501s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jd/jdamr_200_ros/src/jdamr200_description' with build type 'ament_python'
+[1.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('jdamr200_description', 'ament_prefix_path')
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_description/share/jdamr200_description/hook/ament_prefix_path.ps1'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jd/jdamr_200_ros/install/jdamr200_description/share/jdamr200_description/hook/ament_prefix_path.dsv'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_description/share/jdamr200_description/hook/ament_prefix_path.sh'
+[1.517s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.518s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.549s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jd/jdamr_200_ros/src/jdamr200_node' with build type 'ament_python'
+[1.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('jdamr200_node', 'ament_prefix_path')
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_node/share/jdamr200_node/hook/ament_prefix_path.ps1'
+[1.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jd/jdamr_200_ros/install/jdamr200_node/share/jdamr200_node/hook/ament_prefix_path.dsv'
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_node/share/jdamr200_node/hook/ament_prefix_path.sh'
+[1.565s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.566s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.851s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jd/jdamr_200_ros/src/jdamr200_bringup'
+[2.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.852s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jd/jdamr_200_ros/build/jdamr200_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble /usr/bin/cmake --build /home/jd/jdamr_200_ros/build/jdamr200_cartographer -- -j4 -l4
+[4.133s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jd/jdamr_200_ros/src/jdamr200_description'
+[4.134s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.134s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.364s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jd/jdamr_200_ros/src/jdamr200_node'
+[5.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jd/jdamr_200_ros/build/jdamr200_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble /usr/bin/cmake --build /home/jd/jdamr_200_ros/build/jdamr200_cartographer -- -j4 -l4
+[5.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jd/jdamr_200_ros/build/jdamr200_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble /usr/bin/cmake --install /home/jd/jdamr_200_ros/build/jdamr200_cartographer
+[5.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jdamr200_cartographer)
+[5.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jd/jdamr_200_ros/build/jdamr200_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble /usr/bin/cmake --install /home/jd/jdamr_200_ros/build/jdamr200_cartographer
+[5.558s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_cartographer' for CMake module files
+[5.562s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_cartographer' for CMake config files
+[5.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('jdamr200_cartographer', 'cmake_prefix_path')
+[5.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/hook/cmake_prefix_path.ps1'
+[5.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/hook/cmake_prefix_path.dsv'
+[5.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/hook/cmake_prefix_path.sh'
+[5.582s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/bin'
+[5.582s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/lib/pkgconfig/jdamr200_cartographer.pc'
+[5.584s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/lib/python3.10/site-packages'
+[5.586s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/bin'
+[5.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.ps1'
+[5.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.dsv'
+[5.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.sh'
+[5.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.bash'
+[5.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.zsh'
+[5.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/colcon-core/packages/jdamr200_cartographer)
+[5.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jdamr200_cartographer)
+[5.628s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_cartographer' for CMake module files
+[5.632s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_cartographer' for CMake config files
+[5.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('jdamr200_cartographer', 'cmake_prefix_path')
+[5.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/hook/cmake_prefix_path.ps1'
+[5.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/hook/cmake_prefix_path.dsv'
+[5.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/hook/cmake_prefix_path.sh'
+[5.646s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/bin'
+[5.647s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/lib/pkgconfig/jdamr200_cartographer.pc'
+[5.648s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/lib/python3.10/site-packages'
+[5.650s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/bin'
+[5.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.ps1'
+[5.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.dsv'
+[5.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.sh'
+[5.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.bash'
+[5.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.zsh'
+[5.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/colcon-core/packages/jdamr200_cartographer)
+[5.671s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jd/jdamr_200_ros/src/jdamr200_teleop' with build type 'ament_python'
+[5.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('jdamr200_teleop', 'ament_prefix_path')
+[5.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_teleop/share/jdamr200_teleop/hook/ament_prefix_path.ps1'
+[5.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jd/jdamr_200_ros/install/jdamr200_teleop/share/jdamr200_teleop/hook/ament_prefix_path.dsv'
+[5.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_teleop/share/jdamr200_teleop/hook/ament_prefix_path.sh'
+[5.686s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.686s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.359s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jd/jdamr_200_ros/src/jdamr200_teleop'
+[8.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jd/jdamr_200_ros/src/jdamr200_bringup': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_bringup/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_bringup build --build-base /home/jd/jdamr_200_ros/build/jdamr200_bringup/build install --record /home/jd/jdamr_200_ros/build/jdamr200_bringup/install.log --single-version-externally-managed install_data
+[8.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jd/jdamr_200_ros/src/jdamr200_description': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_description/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_description build --build-base /home/jd/jdamr_200_ros/build/jdamr200_description/build install --record /home/jd/jdamr_200_ros/build/jdamr200_description/install.log --single-version-externally-managed install_data
+[8.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jd/jdamr_200_ros/src/jdamr200_node': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_node/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_node build --build-base /home/jd/jdamr_200_ros/build/jdamr200_node/build install --record /home/jd/jdamr_200_ros/build/jdamr200_node/install.log --single-version-externally-managed install_data
+[10.784s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_node' for CMake module files
+[10.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jd/jdamr_200_ros/src/jdamr200_node' returned '0': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_node/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_node build --build-base /home/jd/jdamr_200_ros/build/jdamr200_node/build install --record /home/jd/jdamr_200_ros/build/jdamr200_node/install.log --single-version-externally-managed install_data
+[10.803s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_node' for CMake config files
+[10.815s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_node/lib'
+[10.817s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_node/bin'
+[10.819s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_node/lib/pkgconfig/jdamr200_node.pc'
+[10.822s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages'
+[10.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('jdamr200_node', 'pythonpath')
+[10.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_node/share/jdamr200_node/hook/pythonpath.ps1'
+[10.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jd/jdamr_200_ros/install/jdamr200_node/share/jdamr200_node/hook/pythonpath.dsv'
+[10.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_node/share/jdamr200_node/hook/pythonpath.sh'
+[10.846s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_node/bin'
+[10.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jdamr200_node)
+[10.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_node/share/jdamr200_node/package.ps1'
+[10.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jd/jdamr_200_ros/install/jdamr200_node/share/jdamr200_node/package.dsv'
+[10.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_node/share/jdamr200_node/package.sh'
+[10.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_node/share/jdamr200_node/package.bash'
+[10.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_node/share/jdamr200_node/package.zsh'
+[10.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jd/jdamr_200_ros/install/jdamr200_node/share/colcon-core/packages/jdamr200_node)
+[10.892s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jd/jdamr_200_ros/src/ldlidar_sl_ros2' with build type 'ament_cmake'
+[10.893s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jd/jdamr_200_ros/src/ldlidar_sl_ros2'
+[10.902s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.906s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.960s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_bringup' for CMake module files
+[10.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jd/jdamr_200_ros/src/jdamr200_bringup' returned '0': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_bringup/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_bringup build --build-base /home/jd/jdamr_200_ros/build/jdamr200_bringup/build install --record /home/jd/jdamr_200_ros/build/jdamr200_bringup/install.log --single-version-externally-managed install_data
+[10.966s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_bringup' for CMake config files
+[10.973s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib'
+[10.976s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_bringup/bin'
+[10.978s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/pkgconfig/jdamr200_bringup.pc'
+[10.981s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages'
+[10.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('jdamr200_bringup', 'pythonpath')
+[10.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/hook/pythonpath.ps1'
+[10.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/hook/pythonpath.dsv'
+[10.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/hook/pythonpath.sh'
+[10.999s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_bringup/bin'
+[11.001s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jdamr200_bringup)
+[11.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/package.ps1'
+[11.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/package.dsv'
+[11.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/package.sh'
+[11.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/package.bash'
+[11.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/package.zsh'
+[11.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/colcon-core/packages/jdamr200_bringup)
+[11.028s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_description' for CMake module files
+[11.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jd/jdamr_200_ros/src/jdamr200_description' returned '0': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_description/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_description build --build-base /home/jd/jdamr_200_ros/build/jdamr200_description/build install --record /home/jd/jdamr_200_ros/build/jdamr200_description/install.log --single-version-externally-managed install_data
+[11.041s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_description' for CMake config files
+[11.050s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_description/lib'
+[11.050s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_description/bin'
+[11.051s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_description/lib/pkgconfig/jdamr200_description.pc'
+[11.052s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_description/lib/python3.10/site-packages'
+[11.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('jdamr200_description', 'pythonpath')
+[11.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_description/share/jdamr200_description/hook/pythonpath.ps1'
+[11.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jd/jdamr_200_ros/install/jdamr200_description/share/jdamr200_description/hook/pythonpath.dsv'
+[11.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_description/share/jdamr200_description/hook/pythonpath.sh'
+[11.068s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_description/bin'
+[11.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jdamr200_description)
+[11.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_description/share/jdamr200_description/package.ps1'
+[11.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jd/jdamr_200_ros/install/jdamr200_description/share/jdamr200_description/package.dsv'
+[11.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_description/share/jdamr200_description/package.sh'
+[11.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_description/share/jdamr200_description/package.bash'
+[11.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_description/share/jdamr200_description/package.zsh'
+[11.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jd/jdamr_200_ros/install/jdamr200_description/share/colcon-core/packages/jdamr200_description)
+[11.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble /usr/bin/cmake --build /home/jd/jdamr_200_ros/build/ldlidar_sl_ros2 -- -j4 -l4
+[11.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jd/jdamr_200_ros/src/jdamr200_teleop': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_teleop/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_teleop build --build-base /home/jd/jdamr_200_ros/build/jdamr200_teleop/build install --record /home/jd/jdamr_200_ros/build/jdamr200_teleop/install.log --single-version-externally-managed install_data
+[11.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble /usr/bin/cmake --build /home/jd/jdamr_200_ros/build/ldlidar_sl_ros2 -- -j4 -l4
+[11.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble /usr/bin/cmake --install /home/jd/jdamr_200_ros/build/ldlidar_sl_ros2
+[11.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_sl_ros2)
+[11.632s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2' for CMake module files
+[11.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jd/jdamr_200_ros/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble /usr/bin/cmake --install /home/jd/jdamr_200_ros/build/ldlidar_sl_ros2
+[11.637s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2' for CMake config files
+[11.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_sl_ros2', 'cmake_prefix_path')
+[11.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.ps1'
+[11.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.dsv'
+[11.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.sh'
+[11.649s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/lib'
+[11.649s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/bin'
+[11.650s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/lib/pkgconfig/ldlidar_sl_ros2.pc'
+[11.651s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/lib/python3.10/site-packages'
+[11.652s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/bin'
+[11.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.ps1'
+[11.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv'
+[11.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.sh'
+[11.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.bash'
+[11.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.zsh'
+[11.667s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/colcon-core/packages/ldlidar_sl_ros2)
+[11.670s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_sl_ros2)
+[11.671s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2' for CMake module files
+[11.674s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2' for CMake config files
+[11.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_sl_ros2', 'cmake_prefix_path')
+[11.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.ps1'
+[11.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.dsv'
+[11.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.sh'
+[11.687s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/lib'
+[11.688s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/bin'
+[11.690s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/lib/pkgconfig/ldlidar_sl_ros2.pc'
+[11.693s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/lib/python3.10/site-packages'
+[11.695s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/bin'
+[11.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.ps1'
+[11.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv'
+[11.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.sh'
+[11.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.bash'
+[11.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.zsh'
+[11.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jd/jdamr_200_ros/install/ldlidar_sl_ros2/share/colcon-core/packages/ldlidar_sl_ros2)
+[12.921s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_teleop' for CMake module files
+[12.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jd/jdamr_200_ros/src/jdamr200_teleop' returned '0': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_teleop/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_teleop build --build-base /home/jd/jdamr_200_ros/build/jdamr200_teleop/build install --record /home/jd/jdamr_200_ros/build/jdamr200_teleop/install.log --single-version-externally-managed install_data
+[12.924s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_teleop' for CMake config files
+[12.928s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib'
+[12.928s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_teleop/bin'
+[12.928s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/pkgconfig/jdamr200_teleop.pc'
+[12.929s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_teleop/lib/python3.10/site-packages'
+[12.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('jdamr200_teleop', 'pythonpath')
+[12.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_teleop/share/jdamr200_teleop/hook/pythonpath.ps1'
+[12.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jd/jdamr_200_ros/install/jdamr200_teleop/share/jdamr200_teleop/hook/pythonpath.dsv'
+[12.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jd/jdamr_200_ros/install/jdamr200_teleop/share/jdamr200_teleop/hook/pythonpath.sh'
+[12.939s] Level 1:colcon.colcon_core.environment:checking '/home/jd/jdamr_200_ros/install/jdamr200_teleop/bin'
+[12.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jdamr200_teleop)
+[12.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_teleop/share/jdamr200_teleop/package.ps1'
+[12.943s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jd/jdamr_200_ros/install/jdamr200_teleop/share/jdamr200_teleop/package.dsv'
+[12.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_teleop/share/jdamr200_teleop/package.sh'
+[12.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_teleop/share/jdamr200_teleop/package.bash'
+[12.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/jd/jdamr_200_ros/install/jdamr200_teleop/share/jdamr200_teleop/package.zsh'
+[12.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jd/jdamr_200_ros/install/jdamr200_teleop/share/colcon-core/packages/jdamr200_teleop)
+[12.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.954s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.955s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.955s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.986s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.987s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.987s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.030s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.031s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jd/jdamr_200_ros/install/local_setup.ps1'
+[13.037s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jd/jdamr_200_ros/install/_local_setup_util_ps1.py'
+[13.053s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jd/jdamr_200_ros/install/setup.ps1'
+[13.065s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jd/jdamr_200_ros/install/local_setup.sh'
+[13.069s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jd/jdamr_200_ros/install/_local_setup_util_sh.py'
+[13.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jd/jdamr_200_ros/install/setup.sh'
+[13.078s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jd/jdamr_200_ros/install/local_setup.bash'
+[13.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jd/jdamr_200_ros/install/setup.bash'
+[13.090s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jd/jdamr_200_ros/install/local_setup.zsh'
+[13.094s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jd/jdamr_200_ros/install/setup.zsh'

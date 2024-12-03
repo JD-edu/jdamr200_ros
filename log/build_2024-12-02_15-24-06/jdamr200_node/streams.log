@@ -1,0 +1,37 @@
+[8.533s] Invoking command in '/home/jd/jdamr_200_ros/src/jdamr200_node': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_node/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_node build --build-base /home/jd/jdamr_200_ros/build/jdamr200_node/build install --record /home/jd/jdamr_200_ros/build/jdamr200_node/install.log --single-version-externally-managed install_data
+[10.703s] running egg_info
+[10.711s] creating ../../build/jdamr200_node/jdamr200_node.egg-info
+[10.712s] writing ../../build/jdamr200_node/jdamr200_node.egg-info/PKG-INFO
+[10.714s] writing dependency_links to ../../build/jdamr200_node/jdamr200_node.egg-info/dependency_links.txt
+[10.723s] writing entry points to ../../build/jdamr200_node/jdamr200_node.egg-info/entry_points.txt
+[10.725s] writing requirements to ../../build/jdamr200_node/jdamr200_node.egg-info/requires.txt
+[10.726s] writing top-level names to ../../build/jdamr200_node/jdamr200_node.egg-info/top_level.txt
+[10.728s] writing manifest file '../../build/jdamr200_node/jdamr200_node.egg-info/SOURCES.txt'
+[10.791s] reading manifest file '../../build/jdamr200_node/jdamr200_node.egg-info/SOURCES.txt'
+[10.821s] writing manifest file '../../build/jdamr200_node/jdamr200_node.egg-info/SOURCES.txt'
+[10.824s] running build
+[10.825s] running build_py
+[10.838s] creating /home/jd/jdamr_200_ros/build/jdamr200_node/build
+[10.839s] creating /home/jd/jdamr_200_ros/build/jdamr200_node/build/lib
+[10.840s] creating /home/jd/jdamr_200_ros/build/jdamr200_node/build/lib/jdamr200_node
+[10.841s] copying jdamr200_node/__init__.py -> /home/jd/jdamr_200_ros/build/jdamr200_node/build/lib/jdamr200_node
+[10.856s] copying jdamr200_node/jdamr200_node.py -> /home/jd/jdamr_200_ros/build/jdamr200_node/build/lib/jdamr200_node
+[10.871s] running install
+[10.878s] running install_lib
+[10.886s] creating /home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages/jdamr200_node
+[10.888s] copying /home/jd/jdamr_200_ros/build/jdamr200_node/build/lib/jdamr200_node/__init__.py -> /home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages/jdamr200_node
+[10.889s] copying /home/jd/jdamr_200_ros/build/jdamr200_node/build/lib/jdamr200_node/jdamr200_node.py -> /home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages/jdamr200_node
+[10.901s] byte-compiling /home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages/jdamr200_node/__init__.py to __init__.cpython-310.pyc
+[10.910s] byte-compiling /home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages/jdamr200_node/jdamr200_node.py to jdamr200_node.cpython-310.pyc
+[10.920s] running install_data
+[10.921s] creating /home/jd/jdamr_200_ros/install/jdamr200_node/share/ament_index
+[10.923s] creating /home/jd/jdamr_200_ros/install/jdamr200_node/share/ament_index/resource_index
+[10.925s] creating /home/jd/jdamr_200_ros/install/jdamr200_node/share/ament_index/resource_index/packages
+[10.928s] copying resource/jdamr200_node -> /home/jd/jdamr_200_ros/install/jdamr200_node/share/ament_index/resource_index/packages
+[10.932s] copying package.xml -> /home/jd/jdamr_200_ros/install/jdamr200_node/share/jdamr200_node
+[10.935s] running install_egg_info
+[10.965s] Copying ../../build/jdamr200_node/jdamr200_node.egg-info to /home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages/jdamr200_node-0.0.0-py3.10.egg-info
+[11.000s] running install_scripts
+[11.241s] Installing jdamr200_node script to /home/jd/jdamr_200_ros/install/jdamr200_node/lib/jdamr200_node
+[11.254s] writing list of installed files to '/home/jd/jdamr_200_ros/build/jdamr200_node/install.log'
+[13.219s] Invoked command in '/home/jd/jdamr_200_ros/src/jdamr200_node' returned '0': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_node/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_node build --build-base /home/jd/jdamr_200_ros/build/jdamr200_node/build install --record /home/jd/jdamr_200_ros/build/jdamr200_node/install.log --single-version-externally-managed install_data
