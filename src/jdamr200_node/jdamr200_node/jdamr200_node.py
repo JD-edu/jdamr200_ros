@@ -17,7 +17,7 @@ class JdamrControlNode(Node):
         super().__init__('jdamr_control_node')
         # jsamr200 
         self.robot = Jdamr200("/dev/ttyACM0")
-
+        
         self.publisher_ = self.create_publisher(String, 'jdamr_control', 10)
          # Odometry 메시지를 퍼블리싱하는 퍼블리셔 생성
         self.pub_odom = self.create_publisher(Odometry, 'odom', 50)
@@ -55,9 +55,10 @@ class JdamrControlNode(Node):
         # 메시지 데이터를 여기서 설정
         msg.data = 100  # 예시로 100을 설정
         self.pub_v.publish(msg)
-        self.get_logger().info('Publishing Voltage data')
+        #self.get_logger().info('Publishing Voltage data')
 
     def cmd_vel_callback(self, msg):
+        print("cmd_vel")
         go_back = msg.linear.x
         rotate = msg.linear.y
         speed = int(msg.linear.z)

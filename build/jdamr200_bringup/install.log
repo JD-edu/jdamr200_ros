@@ -2,8 +2,9 @@
 /home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages/jdamr200_bringup/__pycache__/__init__.cpython-310.pyc
 /home/jd/jdamr_200_ros/install/jdamr200_bringup/share/ament_index/resource_index/packages/jdamr200_bringup
 /home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/package.xml
-/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/launch/jdamr200_working_launch.py
-/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/launch/jdamr200_display_launch.py
+/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/launch/jdamr200_node_launch.py
+/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/launch/jdamr200_lidar_node_launch.py
+/home/jd/jdamr_200_ros/install/jdamr200_bringup/share/jdamr200_bringup/launch/jdamr200_urdf_launch.py
 /home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages/jdamr200_bringup-0.0.0-py3.10.egg-info/zip-safe
 /home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages/jdamr200_bringup-0.0.0-py3.10.egg-info/PKG-INFO
 /home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages/jdamr200_bringup-0.0.0-py3.10.egg-info/top_level.txt

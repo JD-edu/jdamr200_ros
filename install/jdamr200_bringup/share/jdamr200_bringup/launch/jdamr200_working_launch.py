@@ -43,16 +43,18 @@ def generate_launch_description():
         #    output='screen',
         #    parameters=[robot_param, {'use_sim_time': use_sim_time}],
         #),
-        Node(
-            package='rviz2',
-            executable='rviz2',
-            output='screen',
-        ),
-        Node(
-            package='joint_state_publisher_gui',
-            executable='joint_state_publisher_gui',
-            output='screen',
-        ),
+        
+        # for ssh usage, block rviz node
+        #Node(
+        #    package='rviz2',
+        #    executable='rviz2',
+        #    output='screen',
+        #),
+        #Node(
+        #    package='joint_state_publisher_gui',
+        #    executable='joint_state_publisher_gui',
+        #    output='screen',
+        #),
         Node(
             package='jdamr200_node',
             executable='jdamr200_node',

@@ -1,0 +1,25 @@
+[1.285s] Invoking command in '/home/jd/jdamr_200_ros/build/jdamr200_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble /usr/bin/cmake --build /home/jd/jdamr_200_ros/build/jdamr200_cartographer -- -j4 -l4
+[3.648s] Invoked command in '/home/jd/jdamr_200_ros/build/jdamr200_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble /usr/bin/cmake --build /home/jd/jdamr_200_ros/build/jdamr200_cartographer -- -j4 -l4
+[3.690s] Invoking command in '/home/jd/jdamr_200_ros/build/jdamr200_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble /usr/bin/cmake --install /home/jd/jdamr_200_ros/build/jdamr200_cartographer
+[3.731s] -- Install configuration: ""
+[3.732s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/launch
+[3.733s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/launch/occupancy_grid.launch.py
+[3.733s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/launch/cartographer.launch.py
+[3.734s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/config
+[3.736s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/config/jdamr200_lidar.lua
+[3.736s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/ament_index/resource_index/package_run_dependencies/jdamr200_cartographer
+[3.737s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/ament_index/resource_index/parent_prefix_path/jdamr200_cartographer
+[3.737s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/environment/ament_prefix_path.sh
+[3.738s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/environment/ament_prefix_path.dsv
+[3.738s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/environment/path.sh
+[3.744s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/environment/path.dsv
+[3.745s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/local_setup.bash
+[3.745s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/local_setup.sh
+[3.746s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/local_setup.zsh
+[3.746s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/local_setup.dsv
+[3.746s] -- Installing: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.dsv
+[3.747s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/ament_index/resource_index/packages/jdamr200_cartographer
+[3.747s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/cmake/jdamr200_cartographerConfig.cmake
+[3.747s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/cmake/jdamr200_cartographerConfig-version.cmake
+[3.748s] -- Up-to-date: /home/jd/jdamr_200_ros/install/jdamr200_cartographer/share/jdamr200_cartographer/package.xml
+[3.767s] Invoked command in '/home/jd/jdamr_200_ros/build/jdamr200_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jd/jdamr_200_ros/install/jdamr200_teleop:/home/jd/jdamr_200_ros/install/jdamr200_node:/home/jd/jdamr_200_ros/install/jdamr200_description:/home/jd/jdamr_200_ros/install/jdamr200_bringup:/opt/ros/humble /usr/bin/cmake --install /home/jd/jdamr_200_ros/build/jdamr200_cartographer

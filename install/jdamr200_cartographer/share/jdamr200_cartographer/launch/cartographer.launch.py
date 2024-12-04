@@ -18,10 +18,10 @@ def generate_launch_description():
     resolution = LaunchConfiguration('resolution', default='0.05')
     publish_period_sec = LaunchConfiguration('publish_period_sec', default='1.0')
 
-    #ld14lidar_launch_file_dir = os.path.join(
-    #    get_package_share_directory('ldlidar_sl_ros2'),
-    #    'launch'
-    #)
+    ld14lidar_launch_file_dir = os.path.join(
+        get_package_share_directory('ldlidar_sl_ros2'),
+        'launch'
+    )
 
     cartographer_launch_file_dir = os.path.join(
         get_package_share_directory('jdamr200_cartographer'),
@@ -44,10 +44,10 @@ def generate_launch_description():
 
                 
         # Include the launch file that starts the ydlidar launch file
-        #IncludeLaunchDescription(
-        #    PythonLaunchDescriptionSource([ld14lidar_launch_file_dir, '/ld14.launch.py']),
-        #    launch_arguments={'use_sim_time': use_sim_time}.items()
-        #),
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([ld14lidar_launch_file_dir, '/ld14.launch.py']),
+            launch_arguments={'use_sim_time': use_sim_time}.items()
+        ),
 
         
         

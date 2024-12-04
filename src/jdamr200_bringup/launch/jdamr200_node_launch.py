@@ -30,29 +30,8 @@ def generate_launch_description():
             default_value='true',
             description='Use simulation (Gazebo) clock if true'
         ),
-         # Include the launch file that starts the ydlidar launch file
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([ld14lidar_launch_file_dir, '/ld14.launch.py']),
-            launch_arguments={'use_sim_time': use_sim_time}.items()
-        ),
+     
 
-        # This node is executed at lidar launch file (ld14.launch.py). 
-        #Node(
-        #    package='robot_state_publisher',
-        #    executable='robot_state_publisher',
-        #    output='screen',
-        #    parameters=[robot_param, {'use_sim_time': use_sim_time}],
-        #),
-        Node(
-            package='rviz2',
-            executable='rviz2',
-            output='screen',
-        ),
-        Node(
-            package='joint_state_publisher_gui',
-            executable='joint_state_publisher_gui',
-            output='screen',
-        ),
         Node(
             package='jdamr200_node',
             executable='jdamr200_node',

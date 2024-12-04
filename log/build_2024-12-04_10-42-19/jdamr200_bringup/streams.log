@@ -1,0 +1,20 @@
+[7.148s] Invoking command in '/home/jd/jdamr_200_ros/src/jdamr200_bringup': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_bringup/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_bringup build --build-base /home/jd/jdamr_200_ros/build/jdamr200_bringup/build install --record /home/jd/jdamr_200_ros/build/jdamr200_bringup/install.log --single-version-externally-managed install_data
+[8.897s] running egg_info
+[8.903s] writing ../../build/jdamr200_bringup/jdamr200_bringup.egg-info/PKG-INFO
+[8.910s] writing dependency_links to ../../build/jdamr200_bringup/jdamr200_bringup.egg-info/dependency_links.txt
+[8.913s] writing entry points to ../../build/jdamr200_bringup/jdamr200_bringup.egg-info/entry_points.txt
+[8.916s] writing requirements to ../../build/jdamr200_bringup/jdamr200_bringup.egg-info/requires.txt
+[8.919s] writing top-level names to ../../build/jdamr200_bringup/jdamr200_bringup.egg-info/top_level.txt
+[8.932s] reading manifest file '../../build/jdamr200_bringup/jdamr200_bringup.egg-info/SOURCES.txt'
+[8.945s] writing manifest file '../../build/jdamr200_bringup/jdamr200_bringup.egg-info/SOURCES.txt'
+[8.946s] running build
+[8.947s] running build_py
+[8.953s] running install
+[8.955s] running install_lib
+[8.964s] running install_data
+[8.967s] running install_egg_info
+[8.977s] removing '/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages/jdamr200_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[8.980s] Copying ../../build/jdamr200_bringup/jdamr200_bringup.egg-info to /home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages/jdamr200_bringup-0.0.0-py3.10.egg-info
+[8.993s] running install_scripts
+[9.125s] writing list of installed files to '/home/jd/jdamr_200_ros/build/jdamr200_bringup/install.log'
+[9.375s] Invoked command in '/home/jd/jdamr_200_ros/src/jdamr200_bringup' returned '0': PYTHONPATH=/home/jd/jdamr_200_ros/build/jdamr200_bringup/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jd/jdamr_200_ros/install/jdamr200_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/jdamr200_bringup build --build-base /home/jd/jdamr_200_ros/build/jdamr200_bringup/build install --record /home/jd/jdamr_200_ros/build/jdamr200_bringup/install.log --single-version-externally-managed install_data
