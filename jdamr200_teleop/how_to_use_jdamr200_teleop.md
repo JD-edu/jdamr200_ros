@@ -131,5 +131,3 @@ self.subscriber_cmd_vel = self.create_subscription(
 
 ---
 
-이 설명을 `jdamr200_teleop`의 README 구성이나 문서로 변환할 수 있습니다. 필요하신가요?
-
