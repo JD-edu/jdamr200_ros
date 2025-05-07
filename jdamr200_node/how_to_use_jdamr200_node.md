@@ -26,7 +26,7 @@ $ ls /dev/tty*
 ### ✔ 방법 1: `chmod`로 직접 권한 부여
 
 ```bash
-$ sudo chmod 666 /dev/ttyACM0
+$ sudo chmod 777 /dev/ttyACM0
 ```
 
 > 위 명령은 해당 포트에 읽기/쓰기 권한을 부여합니다. 다만 USB를 재연결하면 초기화되므로 매번 실행해야 할 수 있습니다.
