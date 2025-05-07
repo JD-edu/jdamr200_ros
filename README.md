@@ -91,16 +91,3 @@ ros2 run jdamr200_teleop jdamr200_teleop
 ```bash
 ros2 launch jdamr200_bringup display.launch.py
 ```
-
-### 3. Lidar + Cartographer SLAM 실행 (예시)
-
-```bash
-ros2 launch jdamr200_bringup bringup_with_lidar.launch.py
-```
-
----
-
-원하시면 이 내용을 전체 `README.md` 형식으로 만들어드릴 수 있습니다.
-이 레포지토리를 사용하는 목적은 로봇 제어 + 시각화 + 자율주행(SLAM) 학습을 포함하므로, 해당 목적을 소개하는 **인트로 / 소개 문단**도 추가하는 것이 좋습니다.
-
-필요하시면 전체 README 템플릿을 만들어드릴까요?
