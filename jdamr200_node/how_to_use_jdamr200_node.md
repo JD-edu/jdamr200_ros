@@ -256,7 +256,7 @@ ls /dev/tty*
 2. 포트 권한 부여:
 
 ```bash
-sudo chmod 666 /dev/ttyACM0
+sudo chmod 777 /dev/ttyACM0
 ```
 
 또는:
@@ -274,6 +274,6 @@ ros2 run jdamr200_node jdamr200_node
 
 ---
 
-필요하다면 이 내용을 `README.md` 또는 개발자 문서용 `.md` 파일로도 정리해드릴 수 있습니다. 정리해서 넣어드릴까요?
+jdamr200_node를 실행하고 jdAMR200 로봇의 바퀴를 조작하려면 jdamr200_teleop 노드를 실행하면 됩니다. jdamr200 노드의 사용방법은 jdamr200 teleop 폴더의 마크다운 파일을 참고하새요 
 
 
