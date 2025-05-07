@@ -1,3 +1,0 @@
-[console_scripts]
-jdamr_teleop = jdamr200_teleop.jdamr_teleop:main
-
