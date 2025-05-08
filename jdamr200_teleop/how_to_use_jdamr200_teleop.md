@@ -1,5 +1,5 @@
 # jdamr200 Teleop 노드 사용방법, 소스코드 설명 
-## 🎮 `teleop_node.py` 개요
+## 🎮 `jdamr200_teleop.py` 개요
 
 이 코드는 키보드 입력으로 ROS2 로봇을 원격 제어하는 **터미널 기반 텔레옵 노드**입니다.
 ROS2에서 제공하는 `teleop_twist_keyboard` 기능을 기반으로 커스텀 수정한 것으로, 다음 기능이 포함되어 있습니다:
@@ -20,7 +20,7 @@ ROS2 환경을 활성화한 후 다음 명령어로 실행합니다:
 
 ```bash
 source ~/jdamr200_ws/install/setup.bash
-ros2 run jdamr200_teleop teleop_node
+ros2 run jdamr200_teleop jdamr200_teleop
 ```
 
 실행 시 아래와 같은 조작 안내가 터미널에 출력됩니다:
