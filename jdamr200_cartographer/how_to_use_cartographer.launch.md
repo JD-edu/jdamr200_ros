@@ -24,10 +24,39 @@
 ### 3. All-in-One 방식 실행 절차
 
 1. `ld14.launch.py` 라이다 노드와 `jdamr200_node` 모터제어 노드를 실행한다.
-2. Cartographer 관련 노드를 포함한 launch 파일(`all_in_one_cartographer.launch.py`)을 실행한다.
+2. Cartographer 관련 노드와 launch를 실행한다.
 3. `map → odom`과 `odom → body_link` 연결을 위한 정적 TF 노드를 실행한다.
 4. `rviz2`를 실행하여 시각화 환경을 구성한다.
-5. 별도의 터미널에서 `teleop_node`를 실행하여 키보드로 로봇을 조작한다.
+5. 별도의 터미널에서 `jdamr200_teleop` 노드# cartographer.launch.py 사용방법을 정리한 jdAMR200 로봇 기반  Cartographer SLAM 설명서
+
+## jdAMR200 Cartographer SLAM (All-in-One 방식)
+
+### 1. 개요
+
+이 문서는 `jdAMR200` 로봇을 이용하여 **Cartographer SLAM 기반의 지도 생성을 수행하는 방법**을 설명한다. 본 설명서는 특히 **All-in-One 방식**, 즉 모든 노드를 하나의 제어 컴퓨터에서 실행하는 환경을 기준으로 작성되었다.
+
+### 2. 지도 생성 방식 비교
+
+1. **All-in-One 방식**
+
+   * 로봇의 제어 컴퓨터(예: Jetson, 미니PC 등)의 성능이 충분한 경우 사용.
+   * 라이다, 모터제어, SLAM, RViz 등 모든 노드를 한 컴퓨터에서 실행함.
+   * 본 문서에서 설명하는 Launch 파일이 이 방식을 위한 구성이다.
+
+2. **PC - Raspberry Pi 분산 방식**
+
+   * 라즈베리파이의 연산 성능으로는 Cartographer 실행에 어려움이 있으므로, SLAM은 PC에서 실행하고 로봇 제어와 라이다는 라즈베리파이에서 수행한다.
+   * 두 시스템은 동일한 ROS 네트워크에서 동작해야 한다.
+
+---
+
+### 3. All-in-One 방식 실행 절차
+
+1. `ld14.launch.py` 라이다 노드와 `jdamr200_node` 모터제어 노드를 실행한다.
+2. Cartographer 관련 노드와 launch를 실행한다.
+3. `map → odom`과 `odom → body_link` 연결을 위한 정적 TF 노드를 실행한다.
+4. `rviz2`를 실행하여 시각화 환경을 구성한다.
+5. 별도의 터미널에서 `jdamr200_teleop` 노드를 실행하여 키보드로 로봇을 조작한다.
 6. 로봇이 움직이며 라이다로 주변 환경을 스캔하면, `cartographer_node`가 이를 분석하여 `/map` 토픽으로 발행한다.
 7. RViz에서 실시간으로 맵이 시각화되며 점차 확장된다.
 
@@ -65,7 +94,7 @@
 
 ### 6. 전체 토픽 흐름 구조
 
-* `teleop_node` → `/cmd_vel`
+* `jdamr200_teleop` → `/cmd_vel`
 * `jdamr200_node` → `/odom`, 모터 제어 → 실제 로봇 움직임
 * `ld14.launch.py` → `/scan`
 * `cartographer_node` → `/map`
@@ -91,7 +120,7 @@
 | jdamr200\_lidar.lua                  | Cartographer 파라미터 설정 파일 |
 | occupancy\_grid.launch.py            | OccupancyGrid 맵 발행 설정   |
 | ld14.launch.py                       | LP14 라이다 실행             |
-| all\_in\_one\_cartographer.launch.py | 전체 노드 통합 실행 Launch 파일   |
+| cartographer.launch.py | 전체 노드 통합 실행 Launch 파일   |
 
 ---
 
