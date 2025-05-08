@@ -17,7 +17,7 @@
 | 실행 위치                 | 실행 노드 또는 Launch 파일                                                      | 역할                      |
 | --------------------- | ----------------------------------------------------------------------- | ----------------------- |
 | **라즈베리파이 (jdAMR200)** | `jdamr200_node`, `ld14.launch.py`                                       | 모터 및 센서 제어, 라이다 데이터 송신  |
-| **PC**                | `cartographer_node`, `occupancy_grid.launch.py`, `rviz2`, `teleop_node` | SLAM 계산, 지도 시각화 및 로봇 조작 |
+| **PC**                | `cartographer_node`, `occupancy_grid.launch.py`, `rviz2`, `jdamr200_node` | SLAM 계산, 지도 시각화 및 로봇 조작 |
 
 ---
 
@@ -113,14 +113,15 @@ ros2 launch jdamr200_bringup jdamr200_lidar_node_launch.py
 ### 6. 이후 과정 (PC 측)
 
 * 별도의 터미널에서 PC에 설치된 ROS2 워크스페이스에서 다음 명령어를 실행
+* cartographer.launch.py 파일을 실행하면 안됩니다. 이 launch 파일은 라이다를 직접 실행하는데, 분리형 방법에서는 cartographer.launch_no_lidar.py를 실행해야 합니다. 
 
 ```bash
 source ~/jdamr200_ws/install/setup.bash
-ros2 launch jdamr200_cartographer pc_only_cartographer.launch.py
+ros2 launch jdamr200_cartographer cartographer.launch_no_lidar.py
 ```
 
 * Cartographer SLAM 실행 및 지도 시각화가 진행됨
-* `teleop_node` 실행 시 로봇을 조종할 수 있음
+* `jdamr200_teleop` 실행 시 로봇을 조종할 수 있음
 
 ---
 
